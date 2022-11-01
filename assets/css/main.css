@@ -191,7 +191,7 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(60, 30, 130, 1);
+		color: rgba(63, 30, 130, 1);
 	}
 
 	body, input, select, textarea {
@@ -486,7 +486,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: rgba(60, 30, 130, 0.1);
+		border-bottom-color: rgba(63, 30, 130, 0.1);
 	}
 
 /* Row */
@@ -7199,7 +7199,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(60, 30, 130, 1);
+			background-color: rgba(63, 30, 130, 1);
 			color: #ffffff;
 		}
 
@@ -7503,15 +7503,15 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(60, 30, 130, 0.07);
+			background-color: rgba(63, 30, 130, 0.07);
 		}
 
 		#wrapper > .color2 {
-			background-color: rgba(60, 30, 130, 0.1);
+			background-color: rgba(63, 30, 130, 0.1);
 		}
 
 		#wrapper > .color3 {
-			background-color: rgba(60, 30, 130, 0.1);
+			background-color: rgba(63, 30, 130, 0.1);
 		}
 
 		#wrapper > .color4 {
