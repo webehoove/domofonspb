@@ -165,7 +165,7 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(12, 60, 65, 1);
+		color: rgba(0, 55, 125, 1);
 	}
 
 	body, input, select, textarea {
@@ -218,7 +218,7 @@ input, select, textarea {
 		}
 		
 		.light {
-			font-weight: 300;
+			font-weight: 200;
 		}
 		
 		.semibold {
@@ -236,6 +236,7 @@ input, select, textarea {
 	
 	h1.major {
 		font-size: 5rem;
+		line-height: 1;
 	}
 
 	h2 {
@@ -7170,7 +7171,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(3, 40, 44, 1);
+			background-color: rgba(10, 22, 63, 1);
 			color: #ffffff;
 		}
 
@@ -7179,7 +7180,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a {
-				color: rgba(255, 255, 255, 0.45);
+				color: #ffffff;
 			}
 
 				#wrapper > .invert a:hover {
@@ -7205,7 +7206,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.125);
+				border-bottom-color: rgba(255, 255, 255, 0.1);
 			}
 
 			#wrapper > .invert .box {
@@ -7474,11 +7475,11 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(15, 98, 92, 1);
+			background-color: rgba(5, 95, 200, 1);
 		}
 
 		#wrapper > .color2 {
-			background-color: rgba(211, 250, 237, 1);
+			background-color: rgba(215, 230, 245, 1);
 		}
 
 		#wrapper > .color3 {
