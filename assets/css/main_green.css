@@ -175,6 +175,7 @@ input, select, textarea {
 		font-style: normal;
 		letter-spacing: 0;
 		line-height: 1.3;
+		font-optical-sizing: revert;
 	}
 
 	a {

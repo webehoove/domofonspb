@@ -1,32 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-@font-face {
-  font-family: BS-Regular;
-  src: url(../webfonts/BS-Regular.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: BS-Italic;
-  src: url(../webfonts/BS-Italic.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: BS-Medium;
-  src: url(../webfonts/BS-Medium.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: BS-Bold;
-  src: url(../webfonts/BS-Bold.woff2) format('woff2');
-  font-display: swap;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 
 html, body, div, span, applet, object,
@@ -191,7 +164,7 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(63, 30, 130, 1);
+		color: rgba(11, 22, 63, 1);
 	}
 
 	body, input, select, textarea {
@@ -248,7 +221,7 @@ input, select, textarea {
 		}
 		
 		.medium {
-			font-weight: 600;
+			font-weight: 500;
 		}
 		
 		.bold {
@@ -283,7 +256,7 @@ input, select, textarea {
 
 	h6 {
 		font-size: 0.7rem;
-		letter-spacing: -0.01rem;
+		letter-spacing: -0.025rem;
 	}
 	
 	sub {
@@ -486,7 +459,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: rgba(63, 30, 130, 0.1);
+		border-bottom-color: rgba(63, 30, 130, 1);
 	}
 
 /* Row */
@@ -682,12 +655,12 @@ input, select, textarea {
 				}
 
 		.row {
-			margin-top: 0;
+			margin-top: 1rem;
 			margin-left: -1rem;
 		}
 
 			.row > * {
-				padding: 1rem 0 0 1rem;
+				padding: 0 0 0 1rem;
 			}
 
 			.row.gtr-uniform {
@@ -2491,10 +2464,8 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 400;
-		letter-spacing: 0.125em;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
 		white-space: nowrap;
 		font-size: 0.75rem;
 		max-width: 20rem;
@@ -7199,7 +7170,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(63, 30, 130, 1);
+			background-color: rgba(11, 22, 63, 1);
 			color: #ffffff;
 		}
 
@@ -7503,7 +7474,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(63, 30, 130, 0.07);
+			background-color: rgba(0, 95, 201, 1);
 		}
 
 		#wrapper > .color2 {
