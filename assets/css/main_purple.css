@@ -165,7 +165,7 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(3, 40, 44, 1);
+		color: rgba(33, 20, 50, 1);
 	}
 
 	body, input, select, textarea {
@@ -221,11 +221,15 @@ input, select, textarea {
 			font-weight: 300;
 		}
 		
-		.semibold {
+		.medium_t {
 			font-weight: 500;
 		}
 		
-		.bold {
+		.semibold_t {
+			font-weight: 600;
+		}
+		
+		.bold_t {
 			font-weight: 700;
 		}
 		
@@ -453,11 +457,15 @@ input, select, textarea {
 		}
 
 	.t_color1 {
-		color: rgba(15, 98, 92, 1);
+		color: rgba(185, 135, 245, 1);
 	}
 	
 	.t_color2 {
-		color: rgba(7, 155, 140, 1);
+		color: rgba(115, 75, 190, 1);
+	}
+	
+	.t_color3 {
+		color: rgba(220, 185, 255, 1);
 	}
 	
 	blockquote {
@@ -2583,9 +2591,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #000000;
+			background-color: #B987F5;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #211332 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2593,8 +2601,8 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #47D3E5;
-				box-shadow: none;
+				background-color: #211332;
+				color: #ffffff !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2602,7 +2610,8 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color: #211332;
+				color: #ffffff !important;
 			}
 
 /* Form */
@@ -7171,7 +7180,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(3, 40, 44, 1);
+			background-color: rgba(33, 20, 50, 1);
 			color: #ffffff;
 		}
 
@@ -7475,19 +7484,19 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(15, 98, 92, 1);
+			background-color: rgba(185, 135, 245, 1);
 		}
 
 		#wrapper > .color2 {
-			background-color: rgba(228, 247, 238, 1);
+			background-color: rgba(115, 75, 190, 1);
 		}
 
 		#wrapper > .color3 {
-			background-color: rgba(0, 27, 27, 1);
+			background-color: rgba(220, 185, 255, 1);
 		}
 
 		#wrapper > .color4 {
-			background-color: #936DFC;
+			background-color: rgba(245, 236, 255, 1);
 		}
 
 		#wrapper > .color5 {
