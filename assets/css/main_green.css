@@ -2,6 +2,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
+@font-face {
+    font-family: HelveticaNeueCyr-Roman;
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/HelveticaNeueCyr-Roman.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Light;
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/HelveticaNeueCyr-Light.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Medium;
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/HelveticaNeueCyr-Medium.woff2) format('woff2');
+}
+
+@font-face {
+    font-family: HelveticaNeueCyr-Bold;
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/HelveticaNeueCyr-Bold.woff2) format('woff2');
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -169,8 +196,8 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'Inter Tight', sans-serif;
-		font-weight: 400;
+		font-family: 'HelveticaNeueCyr-Roman', sans-serif;
+		font-weight: normal;
 		font-size: 1rem;
 		font-style: normal;
 		letter-spacing: 0;
@@ -206,8 +233,9 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-		line-height: 1.2;
+		font-family: 'HelveticaNeueCyr-Roman', sans-serif;
+		font-weight: normal;
+		line-height: 1.1;
 		letter-spacing: 0;
 		margin: 0 0 1rem 0;
 	}
@@ -218,15 +246,18 @@ input, select, textarea {
 		}
 		
 		.light {
-			font-weight: 300;
+			font-family: 'HelveticaNeueCyr-Light', sans-serif;
+		    font-weight: normal;
 		}
 		
-		.semibold {
-			font-weight: 600;
+		.medium {
+			font-family: 'HelveticaNeueCyr-Medium', sans-serif;
+		    font-weight: normal;
 		}
 		
 		.bold {
-			font-weight: 700;
+			font-family: 'HelveticaNeueCyr-Bold', sans-serif;
+		    font-weight: normal;
 		}
 		
 		.uppercase {
@@ -236,18 +267,22 @@ input, select, textarea {
 	h1 {
 		font-size: 3.75rem;
 		line-height: 1;
+		letter-spacing: -0.025em;
 	}
 	
 	h1.major {
 		font-size: 5rem;
+		letter-spacing: -0.05em;
 	}
 
 	h2 {
 		font-size: 2.25rem;
+		letter-spacing: -0.025em;
 	}
 
 	h3 {
 		font-size: 1.5rem;
+		letter-spacing: -0.015em;
 	}
 
 	h4 {
@@ -452,6 +487,10 @@ input, select, textarea {
 			border-bottom: 1px solid rgba(0, 0, 0, 0.9);
 		}
 
+	.color1 {
+		color: rgba(15, 98, 92, 1);
+	}
+	
 	blockquote {
 		border-left-color: rgba(0, 0, 0, 0.2);
 	}
