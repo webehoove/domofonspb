@@ -236,7 +236,7 @@ input, select, textarea {
 		font-family: 'EM-Regular', sans-serif;
 		font-weight: normal;
 		line-height: 1.1;
-		letter-spacing: -0.02em;
+		letter-spacing: 0;
 		margin: 0 0 1rem 0;
 	}
 
