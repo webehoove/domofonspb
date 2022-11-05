@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
 @font-face {
     font-family: EM-Light;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/EM-Light.woff2) format('woff2');
+    src:url(../webfonts/EM-Light.woff2) format('woff2'),
+	    url(../webfonts/EM-Light.ttf) format('truetype');
 }
 
 @font-face {
     font-family: EM-Regular;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/EM-Regular.woff2) format('woff2');
+    src:url(../webfonts/EM-Regular.woff2) format('woff2'),
+	    url(../webfonts/EM-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: EM-Medium;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/EM-Medium.woff2) format('woff2');
+    src:url(../webfonts/EM-Medium.woff2) format('woff2'),
+	    url(../webfonts/EM-Medium.ttf) format('truetype');
 }
 
 @font-face {
     font-family: EM-Bold;
     font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/EM-Bold.woff2) format('woff2');
+    src:url(../webfonts/EM-Bold.woff2) format('woff2'),
+	    url(../webfonts/EM-Bold.ttf) format('truetype');
 }
 
 html, body, div, span, applet, object,
@@ -201,7 +201,7 @@ input, select, textarea {
 		font-size: 1rem;
 		font-style: normal;
 		letter-spacing: 0;
-		line-height: 1.3;
+		line-height: 1.2;
 	}
 
 	a {
@@ -245,7 +245,7 @@ input, select, textarea {
 			text-decoration: none;
 		}
 		
-		.light {
+		.light_t {
 			font-family: 'EM-Light', sans-serif;
 		    font-weight: normal;
 		}
@@ -271,6 +271,7 @@ input, select, textarea {
 	
 	h1.major {
 		font-size: 4rem;
+		line-height: 1;
 	}
 
 	h2 {
@@ -283,14 +284,17 @@ input, select, textarea {
 
 	h4 {
 		font-size: 1.1rem;
+		line-height: 1.2;
 	}
 
 	h5 {
 		font-size: 0.9rem;
+		line-height: 1.2;
 	}
 
 	h6 {
 		font-size: 0.7rem;
+		line-height: 1.2;
 	}
 	
 	sub {
@@ -449,7 +453,7 @@ input, select, textarea {
 	    }
 
 		h2 {
-			font-size: 1.35rem;
+			font-size: 1.5rem;
 		}
 
 		h3 {
@@ -505,7 +509,7 @@ input, select, textarea {
 	}
 
 	hr {
-		border-bottom-color: rgba(15, 98, 92, 1);
+		border-bottom-color: rgba(220, 185, 255, 1);
 	}
 
 /* Row */
@@ -701,7 +705,7 @@ input, select, textarea {
 				}
 
 		.row {
-			margin-top: 1rem;
+			margin-top: 0;
 			margin-left: -1rem;
 		}
 
@@ -945,11 +949,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
@@ -1190,11 +1194,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
@@ -1435,11 +1439,11 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
@@ -1684,7 +1688,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -1929,7 +1933,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -2174,7 +2178,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -2419,7 +2423,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0 0 0 0.5rem;
 					}
 
 					.row.gtr-uniform {
@@ -2488,7 +2492,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: rgba(15, 98, 92, 1);
+		border-color: rgba(33, 20, 50, 1);
 	}
 
 /* Button */
@@ -3836,7 +3840,7 @@ input, select, textarea {
 	}
 
 		.banner.style1 .content {
-			padding: 0 1rem 1rem 1rem ;
+			padding: 1.5rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -3887,7 +3891,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style1 .content {
-				padding: 0.5rem 1rem 1rem 1rem ;
+				padding: 1.5rem ;
 			}
 
 		}
@@ -3895,7 +3899,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style1 .content {
-				padding: 0.5rem 1rem 1rem 1rem ;
+				padding: 1.5rem ;
 			}
 
 		}
@@ -3903,7 +3907,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style1 .content {
-				padding: 0.5rem 1rem 1rem 1rem ;
+				padding: 1.5rem ;
 			}
 
 		}
@@ -3911,7 +3915,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style1 .content {
-				padding: 0 0.5rem 0.5rem 0.5rem ;
+				padding: 0.5rem ;
 			}
 
 		}
@@ -3944,18 +3948,6 @@ input, select, textarea {
 				}
 
 		}
-
-			@media screen and (orientation: portrait) {
-
-				.banner.style1.fullscreen .content {
-					min-height: 50vh;
-				}
-
-				.banner.style1.fullscreen .image {
-					height: 50vh;
-				}
-
-			}
 
 		.banner.style1.orient-right {
 			-moz-flex-direction: row-reverse;
@@ -4621,7 +4613,7 @@ input, select, textarea {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 0 1rem 1rem 1rem ;
+		padding: 1.5rem ;
 		-moz-align-items: left;
 		-webkit-align-items: left;
 		-ms-align-items: left;
@@ -4699,7 +4691,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 0.5rem 1rem 1rem 1rem ;
+				padding: 1.5rem ;
 			}
 
 		}
@@ -4707,7 +4699,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 0.5rem 1rem 1rem 1rem ;
+				padding: 1.5rem ;
 			}
 
 		}
@@ -4715,7 +4707,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style5 {
-				padding: 0.5rem 1rem 1rem 1rem ;
+				padding: 1.5rem ;
 			}
 
 		}
@@ -4723,7 +4715,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0 0.5rem 0.5rem 0.5rem ;
+				padding: 0.5rem ;
 			}
 
 		}
@@ -6168,7 +6160,7 @@ input, select, textarea {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0.5rem 1rem 0.5rem 1rem ;
+		padding: 1.5rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -6184,7 +6176,7 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.5rem 1rem 1rem 1rem ;
+			padding: 1.5rem ;
 		}
 
 	}
@@ -6192,7 +6184,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.5rem 1rem 1rem 1rem ;
+			padding: 1.5rem ;
 		}
 
 	}
@@ -6200,7 +6192,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.5rem 1rem 1rem 1rem ;
+			padding: 1.5rem ;
 		}
 
 	}
@@ -6208,7 +6200,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.5rem 0.5rem 0.5rem ;
+			padding: 0.5rem ;
 		}
 
 	}
