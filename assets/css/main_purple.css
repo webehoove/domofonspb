@@ -706,19 +706,19 @@ input, select, textarea {
 
 		.row {
 			margin-top: 0;
-			margin-left: -1rem;
+			margin-left: -1.5rem;
 		}
 
 			.row > * {
-				padding: 0 0 0 1rem;
+				padding: 0 0 0 1.5rem;
 			}
 
 			.row.gtr-uniform {
-				margin-top: -1rem;
+				margin-top: -1.5rem;
 			}
 
 				.row.gtr-uniform > * {
-					padding-top: 1rem;
+					padding-top: 1.5rem;
 				}
 
 		.row.gtr-150 {
@@ -949,19 +949,19 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -1rem;
+					margin-left: -1.5rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 1rem;
+						padding: 0 0 0 1.5rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -1.5rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 1.5rem;
 						}
 
 				.row.gtr-150 {
@@ -1202,11 +1202,11 @@ input, select, textarea {
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 1rem;
 						}
 
 				.row.gtr-150 {
@@ -1447,11 +1447,11 @@ input, select, textarea {
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 1rem;
 						}
 
 				.row.gtr-150 {
@@ -1684,19 +1684,19 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 1rem;
 						}
 
 				.row.gtr-150 {
@@ -1895,19 +1895,19 @@ input, select, textarea {
 
 				.row.gtr-25 {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -1rem;
 				}
 
 					.row.gtr-25 > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 1rem;
 					}
 
 					.row.gtr-25.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-25.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 1rem;
 						}
 
 				.row.gtr-50 {
@@ -2174,19 +2174,19 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 1rem;
 						}
 
 				.row.gtr-150 {
@@ -2419,19 +2419,19 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -1rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -1rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 1rem;
 						}
 
 				.row.gtr-150 {
@@ -2621,7 +2621,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #B987F5;
+			background-color: rgba(185, 135, 245, 1);
 			box-shadow: none;
 			color: #211332 !important;
 		}
@@ -3840,7 +3840,7 @@ input, select, textarea {
 	}
 
 		.banner.style1 .content {
-			padding: 1.5rem ;
+			padding: 2.5rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -3853,11 +3853,12 @@ input, select, textarea {
 			-webkit-flex-shrink: 1;
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
+			max-width: 95rem;
 			width: 100%;
 			margin: 0 auto;
 		}
 
-		.banner.style1 .image {
+		.banner.style1 .image_f {
 			-moz-flex-grow: 0;
 			-webkit-flex-grow: 0;
 			-ms-flex-grow: 0;
@@ -3870,7 +3871,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.banner.style1 .image img {
+			.banner.style1 .image_f img {
 				-moz-object-fit: cover;
 				-webkit-object-fit: cover;
 				-ms-object-fit: cover;
@@ -3891,7 +3892,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style1 .content {
-				padding: 1.5rem ;
+				padding: 2.5rem ;
 			}
 
 		}
@@ -3899,7 +3900,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style1 .content {
-				padding: 1.5rem ;
+				padding: 2rem ;
 			}
 
 		}
@@ -3907,7 +3908,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.banner.style1 .content {
-				padding: 1.5rem ;
+				padding: 2rem ;
 			}
 
 		}
@@ -3915,7 +3916,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.banner.style1 .content {
-				padding: 0.5rem ;
+				padding: 1rem ;
 			}
 
 		}
@@ -6160,8 +6161,9 @@ input, select, textarea {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 1.5rem ;
+		padding: 2.5rem ;
 		margin: 0 auto;
+		max-width: 95rem;
 		width: 100%;
 	}
 
@@ -6176,7 +6178,7 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 1.5rem ;
+			padding: 2.5rem ;
 		}
 
 	}
@@ -6184,7 +6186,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 1.5rem ;
+			padding: 2rem ;
 		}
 
 	}
@@ -6192,7 +6194,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 1.5rem ;
+			padding: 2rem ;
 		}
 
 	}
@@ -6200,7 +6202,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.5rem ;
+			padding: 1rem ;
 		}
 
 	}
@@ -7514,7 +7516,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color4 {
-			background-color: rgba(245, 236, 255, 1);
+			background-color: rgba(244, 238, 255, 1);
 		}
 
 		#wrapper > .color5 {
