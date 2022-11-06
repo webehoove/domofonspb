@@ -492,7 +492,7 @@ input, select, textarea {
 	}
 	
 	.t_color2 {
-		color: rgba(115, 75, 190, 1);
+		color: rgba(125, 70, 205, 1);
 	}
 	
 	.t_color3 {
@@ -7506,7 +7506,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color2 {
-			background-color: rgba(115, 75, 190, 1);
+			background-color: rgba(125, 70, 205, 1);
 		}
 
 		#wrapper > .color3 {
