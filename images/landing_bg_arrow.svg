@@ -4,19 +4,25 @@
 	 viewBox="0 0 1198.9 1117" style="enable-background:new 0 0 1198.9 1117;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#8F3CF2;}
-	.st1{fill:#251441;}
-	.st2{fill:#412170;}
-	.st3{fill:#691CC2;}
-	.st4{fill:#AD73FA;}
+	.st1{fill:#691CC2;}
+	.st2{fill:#AD73FA;}
+	.st3{fill:#251441;}
+	.st4{fill:#412170;}
 	.st5{fill:#CCADFF;}
 	.st6{fill:#E3D7FF;}
 </style>
-<polygon id="XMLID_16_" class="st0" points="1198.9,691.6 1198.9,0 0,0 0,691.6 599.4,1117 "/>
-<rect x="-13.1" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 363.893 -168)" class="st1" width="222" height="222"/>
-<rect x="208.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 585.893 54)" class="st2" width="222" height="222"/>
-<rect x="430.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 807.893 276)" class="st3" width="222" height="222"/>
+<polygon id="XMLID_16_" class="st0" points="1198.9,744.6 1198.9,53 0,53 0,744.6 599.4,1170 "/>
+<polygon id="XMLID_1_" class="st0" points="1198.9,572.6 1198.9,-119 0,-119 0,572.6 599.4,998 "/>
+<polygon id="XMLID_2_" class="st0" points="1198.9,400.6 1198.9,-291 0,-291 0,400.6 599.4,826 "/>
+<polygon class="st1" points="1428,598.2 1428,729.6 2027.4,1155 2626.9,729.6 2626.9,598.2 2027.4,1023.7 "/>
+<polygon class="st0" points="1428,466.9 1428,598.2 2027.4,1023.7 2626.9,598.2 2626.9,466.9 2027.4,892.3 "/>
+<polygon class="st2" points="1428,335.6 1428,466.9 2027.4,892.3 2626.9,466.9 2626.9,335.6 2027.4,761 "/>
+<polygon class="st0" points="-1416,370.6 -1416,642.6 -816.6,1068 -217.1,642.6 -217.1,370.6 -816.6,796 "/>
+<rect x="-13.1" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 363.893 -168)" class="st3" width="222" height="222"/>
+<rect x="208.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 585.893 54)" class="st4" width="222" height="222"/>
+<rect x="430.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 807.893 276)" class="st1" width="222" height="222"/>
 <rect x="653.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 1030.8929 499)" class="st0" width="222" height="222"/>
-<rect x="874.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 1251.8929 720)" class="st4" width="222" height="222"/>
+<rect x="874.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 1251.8929 720)" class="st2" width="222" height="222"/>
 <rect x="1095.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 1472.8929 941)" class="st5" width="222" height="222"/>
 <rect x="1316.9" y="-376.9" transform="matrix(6.123234e-17 -1 1 6.123234e-17 1693.8929 1162)" class="st6" width="222" height="222"/>
 </svg>
