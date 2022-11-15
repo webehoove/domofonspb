@@ -2672,9 +2672,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(255, 255, 255, 1);
+			background-color: rgba(173, 115, 250, 1);
 			box-shadow: none;
-			color: #211332 !important;
+			color: #ffffff !important;
 		}
 
 			input[type="submit"].primary:hover,
