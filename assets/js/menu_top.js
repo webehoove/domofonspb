@@ -1,4 +1,4 @@
-//(function($) {
+(function($) {
 
 	var	$window = $(window),
 		$body = $('body'),
@@ -108,7 +108,7 @@
 
 		// Toggle.
 			$navPanelToggle = $(
-				'<a href="#navPanel" id="navPanelToggle">Menu</a>'
+				'<a href="#navPanel" id="navPanelToggle"></a>'
 			)
 				.appendTo($wrapper);
 
