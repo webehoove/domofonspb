@@ -583,10 +583,6 @@ input, select, textarea {
 		align-items: stretch;
 	}
 
-		.row.wide_box {
-			margin-left: 0;
-		}
-				
 		.row > * {
 			box-sizing: border-box;
 		}
@@ -1810,10 +1806,6 @@ input, select, textarea {
 				align-items: stretch;
 			}
 
-				.row.wide_box {
-					margin-left: 0;
-				}
-				
 				.row > * {
 					box-sizing: border-box;
 				}
