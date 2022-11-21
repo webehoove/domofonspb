@@ -525,6 +525,10 @@ input, select, textarea {
 		    width: 6rem;
 			margin-top: 0;
 	    }
+		
+		.logo_bottom {
+		    width: 6rem;
+	    }
 
 	}
 
@@ -5630,7 +5634,7 @@ input, select, textarea {
 		}
 		
 		#wrapper > .color8 {
-			background-color: rgba(70, 33, 112, 1);
+			background-color: rgba(65, 33, 112, 1);
 		}
 		
 		#wrapper > .color9 {
