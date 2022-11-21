@@ -2587,6 +2587,8 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
+		font-family: 'YASans-Medium', sans-serif;
+		    font-weight: normal;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
