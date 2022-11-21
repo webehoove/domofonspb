@@ -4499,10 +4499,10 @@ input, select, textarea {
 		-webkit-transition: opacity 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out;
 		transition: opacity 0.75s ease-in-out;
-		-moz-transition-delay: 2.4s;
-		-webkit-transition-delay: 2.4s;
-		-ms-transition-delay: 2.4s;
-		transition-delay: 2.4s;
+		-moz-transition-delay: 1.4s;
+		-webkit-transition-delay: 1.4s;
+		-ms-transition-delay: 1.4s;
+		transition-delay: 1.4s;
 	}
 
 	.items.onload-fade-in > *:nth-child(1) > .inner {
@@ -5374,7 +5374,7 @@ input, select, textarea {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: rgba(105, 28, 194, 1);
+					background-color: rgba(143, 60, 242, 1);
 					box-shadow: none;
 					color: #ffffff !important;
 				}
