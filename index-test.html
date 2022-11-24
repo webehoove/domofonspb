@@ -13,23 +13,23 @@
         <link rel="icon" type="image/png" sizes="16x16" href="images/support/favicon-16x16.png">
         <link rel="manifest" href="images/support/site.webmanifest">
         <style type="text/css">
-		.fade-in {
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 4s;
-}
+		  .fade-in {
+             opacity: 1;
+             animation-name: fadeInOpacity;
+             animation-iteration-count: 1;
+             animation-timing-function: ease-in;
+             animation-duration: 1s;
+          }
 
-@keyframes fadeInOpacity {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-</style>
+          @keyframes fadeInOpacity {
+             0% {
+               opacity: 0;
+             }
+             100% {
+               opacity: 1;
+             }
+          }
+        </style>
 	</head>
 	<body class="is-preload">
 			<div id="wrapper" class="divided">
@@ -64,7 +64,7 @@
                                         </div>
                                         <div class="col-6 col-6-small">
                                         
-                                             <span style="text-align:right; justify-content: right; display: flex;"><a href="#about" class="button primary smooth-scroll">Связаться со мной</a></span><hr>
+                                             <span style="text-align:right; justify-content: right; display: flex;"><a href="#about" class="button primary smooth-scroll">Связаться со мной</a></span>
                                              <span style="text-align:right; justify-content: right; display: flex;"><a href="#about" class="button smooth-scroll">Связаться со мной</a></span>
                                         
                                         </div>
@@ -73,34 +73,40 @@
                              <div class="row">
 										<div class="col-12 col-12-small">
                                         
-                                             <hr />
                                              <h1 class="t_bold">Мы стоим на страже правовой грамотности</h1>
+                                             <hr />
                                         
                                         </div>
 						     </div>
                              <div class="row">
-										<div class="col-3 col-3-small">
+                             
+										<div class="col-3 col-6-small" style="padding:0; margin:0;">
                                         
-                                             <hr />
-                                             <span class="header-image-inner fade-in"><img src="images/banner_imgs/banner_img_1.svg" onContextMenu="return false;" alt="" /></span>
-                                        
-                                        </div>
-                                        <div class="col-3 col-3-small">
-                                        
-                                             <hr />
-                                             <span class="header-image-inner2"><img src="images/banner_imgs/banner_img_2.svg" onContextMenu="return false;" alt="" /></span>
+                                             <span class="box_play fade-in"><img src="images/banner_imgs/banner_img_1.svg" onContextMenu="return false;" alt="" /></span>
                                         
                                         </div>
-                                        <div class="col-3 col-3-small">
+                                        <div class="col-3 col-6-small" style="padding:0; margin:0;">
                                         
-                                             <hr />
-                                             <span class="header-image-inner3"><img src="images/banner_imgs/banner_img_3.svg" onContextMenu="return false;" alt="" /></span>
+                                             <span class="box_play2"><img src="images/banner_imgs/banner_img_2.svg" onContextMenu="return false;" alt="" /></span>
                                         
                                         </div>
-                                        <div class="col-3 col-3-small">
+                                        <div class="col-3 col-6-small" style="padding:0; margin:0;">
+                                        
+                                             <span class="box_play3"><img src="images/banner_imgs/banner_img_3.svg" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-3 col-6-small" style="padding:0; margin:0;">
+                                        
+                                             <span class="box_play4"><img src="images/banner_imgs/banner_img_4.svg" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+						     </div>
+                             <div class="row">
+										<div class="col-12 col-12-small">
                                         
                                              <hr />
-                                             <span class="header-image-inner4"><img src="images/banner_imgs/banner_img_4.svg" onContextMenu="return false;" alt="" /></span>
+                                             <h2 class="t_bold">Какие ваши любимые бренды? У вас, вероятно, будет несколько. Без сомнения, вы можете довольно легко объяснить, почему вы их любите. Вы также можете описать, как эти бренды относятся к вам, и даже как они звучат.</h2>
+                                             
                                         
                                         </div>
 						     </div>
@@ -353,10 +359,10 @@ $(document).ready(function(){
         if(Math.abs(currentX-e.pageX) > 30 || Math.abs(currentY-e.pageY) > 30){
             currentX = e.pageX;
             currentY = e.pageY;
-            $('.header-image-inner img').attr('src',images[Math.floor(Math.random()*images.length)]);
-			$('.header-image-inner2 img').attr('src',images[Math.floor(Math.random()*images.length)]);
-			$('.header-image-inner3 img').attr('src',images[Math.floor(Math.random()*images.length)]);
-			$('.header-image-inner4 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+            $('.box_play img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play2 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play3 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play4 img').attr('src',images[Math.floor(Math.random()*images.length)]);
         }
     })
 	
