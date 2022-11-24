@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E1A5FF;}
+</style>
+<g>
+	<g>
+		<polygon class="st0" points="-400,0 -199.9,200 -400,400 -200.1,400 0,200 -200.1,0 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st0" points="1000,0 945,0 1145,200 945,400 1000,400 1200,200 		"/>
+	</g>
+	<g>
+		<polygon class="st0" points="899,0 844,0 1044,200 844,400 899,400 1099,200 		"/>
+	</g>
+	<g>
+		<polygon class="st0" points="800,0 800,55 945,200 800,345 800,400 1000,200 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<polygon class="st0" points="400,200 600,400 600,200 		"/>
+	</g>
+	<g>
+		<polygon class="st0" points="600,0 800,200 800,0 		"/>
+	</g>
+	<g>
+		<polygon class="st0" points="400,0 600,200 600,0 		"/>
+	</g>
+	<g>
+		<polygon class="st0" points="600,200 800,400 800,200 		"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M1400,0L1400,0c-110.5,0-200,89.5-200,200v0c0,110.5,89.5,200,200,200h0c110.5,0,200-89.5,200-200v0
+			C1600,89.5,1510.5,0,1400,0z M1465,200c0,35.9-29.1,65-65,65h0c-35.9,0-65-29.1-65-65v0c0-35.9,29.1-65,65-65h0
+			C1435.9,135,1465,164.1,1465,200L1465,200z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M0,0v400h400V0H0z M360,360H40V40h320V360z"/>
+	</g>
+	<g>
+		<path class="st0" d="M85,85v230h230V85H85z M275,275H125V125h150V275z"/>
+	</g>
+</g>
+</svg>
