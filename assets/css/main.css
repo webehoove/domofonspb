@@ -290,7 +290,7 @@ input, select, textarea {
 	}
 	
 	.logo_top img {
-		width: 200px;
+		width: 180px;
 	}
 	
 	.logo_bottom img {
@@ -674,7 +674,7 @@ input, select, textarea {
 
 				.row.gtr-uniform > * {
 					padding-top: 0.5rem;
-				}
+				}	
 
 		.row.gtr-150 {
 			margin-top: 0;
@@ -2451,7 +2451,7 @@ input, select, textarea {
 	}
 	
 	    .box.color1 {
-		    background-color: rgba(150, 10, 227, 1);
+		    background-color: rgba(161, 38, 233, 1);
 	    }
 
 /* Button */
