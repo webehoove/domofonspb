@@ -451,6 +451,60 @@ $(document).ready(function(){
 })
 
 </script>
+<script>
+
+const images = [
+	    "images/banner_imgs/banner_img_13.svg",
+        "images/banner_imgs/banner_img_2.svg",
+        "images/banner_imgs/banner_img_3.svg",
+		"images/banner_imgs/banner_img_4.svg",
+		"images/banner_imgs/banner_img_5.svg",
+		"images/banner_imgs/banner_img_6.svg",
+        "images/banner_imgs/banner_img_7.svg",
+        "images/banner_imgs/banner_img_8.svg",
+		"images/banner_imgs/banner_img_9.svg",
+		"images/banner_imgs/banner_img_10.svg",
+		"images/banner_imgs/banner_img_11.svg",
+        "images/banner_imgs/banner_img_12.svg",
+        "images/banner_imgs/banner_img_1.svg",
+		"images/banner_imgs/banner_img_14.svg",
+		"images/banner_imgs/banner_img_15.svg",
+		"images/banner_imgs/banner_img_16.svg",
+		"images/banner_imgs/banner_img_17.svg",
+		"images/banner_imgs/banner_img_18.svg",
+		"images/banner_imgs/banner_img_19.svg",
+		"images/banner_imgs/banner_img_20.svg",
+        "images/banner_imgs/banner_img_21.svg",
+        "images/banner_imgs/banner_img_22.svg",
+		"images/banner_imgs/banner_img_23.svg",
+		"images/banner_imgs/banner_img_24.svg"
+  ]
+  
+$(document).ready(function() {
+
+	$(".box_play").fadeIn(0);
+	$(".box_play2").fadeIn(0);
+  
+	$(window).scroll(function() {
+	  let pos = $(document).scrollTop();
+		$('.box_play img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play2 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play3 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play4 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play5 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play6 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play7 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play8 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play9 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play10 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play11 img').attr('src',images[Math.floor(Math.random()*images.length)]);
+			$('.box_play12 img').attr('src',images[Math.floor(Math.random()*images.length)]); 
+	});
+
+
+});
+
+</script>
 
 	</body>
 </html>
