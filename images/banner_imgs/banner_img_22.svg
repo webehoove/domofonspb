@@ -6,6 +6,15 @@
 	.st0{fill:#A126E9;}
 </style>
 <g>
-	<polygon class="st0" points="400,100 300,0 0,0 100,100 0,200 100,300 0,400 300,400 400,300 300,200 	"/>
+	<g>
+		<g>
+			<g>
+				<path class="st0" d="M0,0v400h400V0H0z M360,360H40V40h320V360z"/>
+			</g>
+		</g>
+		<g>
+			<path class="st0" d="M85,85v230h230V85H85z M275,275H125V125h150V275z"/>
+		</g>
+	</g>
 </g>
 </svg>

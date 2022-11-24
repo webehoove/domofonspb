@@ -8,10 +8,20 @@
 <g>
 	<g>
 		<g>
-			<polygon class="st0" points="0,202.5 200,400 200,202.5 			"/>
+			<g>
+				<rect x="160" class="st0" width="80" height="400"/>
+			</g>
+			<g>
+				<rect y="160" class="st0" width="400" height="80"/>
+			</g>
 		</g>
 		<g>
-			<polygon class="st0" points="0,0 400,400 400,0 			"/>
+			<g>
+				<rect x="0" y="160" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -82.8425 199.9902)" class="st0" width="400" height="80"/>
+			</g>
+			<g>
+				<rect x="160" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -82.8425 199.9902)" class="st0" width="80" height="400"/>
+			</g>
 		</g>
 	</g>
 </g>

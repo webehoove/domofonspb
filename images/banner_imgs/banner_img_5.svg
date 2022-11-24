@@ -3,51 +3,13 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#E1A5FF;}
+	.st0{fill:#A126E9;}
 </style>
 <g>
 	<g>
-		<polygon class="st0" points="-1600,0 -1399.9,200 -1600,400 -1400.1,400 -1200,200 -1400.1,0 		"/>
-	</g>
-</g>
-<g>
-	<g>
-		<polygon class="st0" points="-200,0 -255,0 -55,200 -255,400 -200,400 0,200 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="-301,0 -356,0 -156,200 -356,400 -301,400 -101,200 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="-400,0 -400,55 -255,200 -400,345 -400,400 -200,200 		"/>
-	</g>
-</g>
-<g>
-	<g>
-		<polygon class="st0" points="-800,200 -600,400 -600,200 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="-600,0 -400,200 -400,0 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="-800,0 -600,200 -600,0 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="-600,200 -400,400 -400,200 		"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path class="st0" d="M200,0L200,0C89.5,0,0,89.5,0,200v0c0,110.5,89.5,200,200,200h0c110.5,0,200-89.5,200-200v0
-			C400,89.5,310.5,0,200,0z M265,200c0,35.9-29.1,65-65,65h0c-35.9,0-65-29.1-65-65v0c0-35.9,29.1-65,65-65h0
-			C235.9,135,265,164.1,265,200L265,200z"/>
-	</g>
-</g>
-<g>
-	<g>
-		<path class="st0" d="M-1200,0v400h400V0H-1200z M-840,360h-320V40h320V360z"/>
-	</g>
-	<g>
-		<path class="st0" d="M-1115,85v230h230V85H-1115z M-925,275h-150V125h150V275z"/>
+		<g>
+			<polygon class="st0" points="0,0 200.1,200 0,400 199.9,400 400,200 199.9,0 			"/>
+		</g>
 	</g>
 </g>
 </svg>
