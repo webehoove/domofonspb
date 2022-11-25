@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A126E9;}
+	.st0{fill:#410F64;}
 </style>
 <g>
 	<g>
@@ -11,24 +11,34 @@
 			<g>
 				<g>
 					<g>
-						<rect x="180" class="st0" width="40" height="400"/>
-					</g>
-					<g>
-						<rect y="180" class="st0" width="400" height="40"/>
+						<g>
+							<g>
+								<rect x="180" class="st0" width="40" height="400"/>
+							</g>
+						</g>
+						<g>
+							<g>
+								<rect y="180" class="st0" width="400" height="40"/>
+							</g>
+						</g>
 					</g>
 				</g>
 			</g>
-		</g>
-		<g>
 			<g>
 				<g>
 					<g>
-						
-							<rect x="0" y="180" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -82.8517 199.9948)" class="st0" width="400" height="40"/>
-					</g>
-					<g>
-						
-							<rect x="180" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -82.8517 199.9948)" class="st0" width="40" height="400"/>
+						<g>
+							<g>
+								
+									<rect x="0" y="180" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -82.8425 199.9902)" class="st0" width="400" height="40"/>
+							</g>
+						</g>
+						<g>
+							<g>
+								
+									<rect x="180" y="0" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -82.8425 199.9902)" class="st0" width="40" height="400"/>
+							</g>
+						</g>
 					</g>
 				</g>
 			</g>

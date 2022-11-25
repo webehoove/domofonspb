@@ -3,14 +3,20 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A126E9;}
+	.st0{fill:#CD96F5;}
 </style>
 <g>
 	<g>
-		<polygon class="st0" points="97.1,300 0,400 102.9,400 200,300 102.9,200 200,100 102.9,0 0,0 97.1,100 0,200 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="297.1,300 200,400 302.9,400 400,300 302.9,200 400,100 302.9,0 200,0 297.1,100 200,200 		"/>
+		<g>
+			<g>
+				<polygon class="st0" points="97.1,300 0,400 102.9,400 200,300 102.9,200 200,100 102.9,0 0,0 97.1,100 0,200 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st0" points="297.1,300 200,400 302.9,400 400,300 302.9,200 400,100 302.9,0 200,0 297.1,100 200,200 				"/>
+			</g>
+		</g>
 	</g>
 </g>
 </svg>

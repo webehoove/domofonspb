@@ -3,17 +3,25 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A126E9;}
+	.st0{fill:#410F64;}
 </style>
 <g>
 	<g>
-		<polygon class="st0" points="200,0 145,0 345,200 145,400 200,400 400,200 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="99,0 44,0 244,200 44,400 99,400 299,200 		"/>
-	</g>
-	<g>
-		<polygon class="st0" points="0,0 0,55 145,200 0,345 0,400 200,200 		"/>
+		<g>
+			<g>
+				<polygon class="st0" points="200,0 145,0 345,200 145,400 200,400 400,200 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st0" points="99,0 44,0 244,200 44,400 99,400 299,200 				"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<polygon class="st0" points="0,0 0,55 145,200 0,345 0,400 200,200 				"/>
+			</g>
+		</g>
 	</g>
 </g>
 </svg>

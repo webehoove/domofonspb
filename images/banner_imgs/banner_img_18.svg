@@ -3,57 +3,91 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A126E9;}
+	.st0{fill:#410F64;}
 </style>
 <g>
 	<g>
 		<g>
-			<polygon class="st0" points="100,200 200,300 200,200 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="200,300 300,400 300,300 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="200,200 300,300 300,200 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="300,200 400,300 400,200 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="300,300 400,400 400,300 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="100,300 200,400 200,300 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="0,300 100,400 100,300 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="0,200 100,300 100,200 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="0,100 100,200 100,100 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="0,0 100,100 100,0 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="100,100 200,200 200,100 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="100,0 200,100 200,0 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="200,100 300,200 300,100 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="300,0 400,100 400,0 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="200,0 300,100 300,0 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="300,100 400,200 400,100 			"/>
+			<g>
+				<g>
+					<polygon class="st0" points="100,200 200,300 200,200 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="200,300 300,400 300,300 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="200,200 300,300 300,200 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="300,200 400,300 400,200 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="300,300 400,400 400,300 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="100,300 200,400 200,300 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="0,300 100,400 100,300 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="0,200 100,300 100,200 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="0,100 100,200 100,100 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="0,0 100,100 100,0 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="100,100 200,200 200,100 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="100,0 200,100 200,0 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="200,100 300,200 300,100 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="300,0 400,100 400,0 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="200,0 300,100 300,0 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="300,100 400,200 400,100 					"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </g>

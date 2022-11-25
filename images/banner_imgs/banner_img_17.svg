@@ -3,81 +3,123 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A126E9;}
+	.st0{fill:#410F64;}
 </style>
 <g>
 	<g>
 		<g>
-			<polygon class="st0" points="400.1,0 300.1,0 350.1,50 			"/>
-		</g>
-		<g>
-			
-				<rect x="314.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 31.7982 276.771)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			<polygon class="st0" points="300.1,0 200.1,0 250.1,50 			"/>
-		</g>
-		<g>
-			
-				<rect x="214.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 2.5096 206.0606)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			<polygon class="st0" points="200.1,0 100.1,0 150.1,50 			"/>
-		</g>
-		<g>
-			
-				<rect x="114.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -26.7791 135.3502)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			
-				<rect x="114.6" y="164.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -97.4895 164.6389)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			
-				<rect x="14.6" y="164.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -126.7781 93.9285)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			<polygon class="st0" points="0.1,0 50.1,50 100.1,0 			"/>
-		</g>
-		<g>
-			
-				<rect x="14.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -56.0677 64.6399)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			
-				<rect x="314.6" y="164.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -38.9122 306.0597)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			
-				<rect x="314.6" y="264.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -109.6226 335.3483)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			<polygon class="st0" points="400.1,400 350.1,350 300.1,400 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="200.1,400 300.1,400 250.1,350 			"/>
-		</g>
-		<g>
-			
-				<rect x="214.6" y="164.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -68.2008 235.3492)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			
-				<rect x="214.6" y="264.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -138.9113 264.638)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			
-				<rect x="114.6" y="264.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -168.1999 193.9275)" class="st0" width="70.7" height="70.7"/>
-		</g>
-		<g>
-			<polygon class="st0" points="100.1,400 200.1,400 150.1,350 			"/>
-		</g>
-		<g>
-			<polygon class="st0" points="0.1,400 100.1,400 50.1,350 			"/>
-		</g>
-		<g>
-			
-				<rect x="14.6" y="264.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -197.4885 123.2171)" class="st0" width="70.7" height="70.7"/>
+			<g>
+				<g>
+					<polygon class="st0" points="400.1,0 300.1,0 350.1,50 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="314.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 31.7528 276.7914)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="300.1,0 200.1,0 250.1,50 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="214.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 2.4642 206.0816)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="200.1,0 100.1,0 150.1,50 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="114.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -26.8245 135.3717)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="114.6" y="164.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -97.5344 164.6604)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="14.6" y="164.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -126.7937 93.8799)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="0.1,0 50.1,50 100.1,0 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="14.6" y="64.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -56.1132 64.662)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="314.6" y="164.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -38.9571 306.0801)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="314.6" y="264.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -109.6669 335.3687)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="400.1,400 350.1,350 300.1,400 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="200.1,400 300.1,400 250.1,350 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="214.6" y="164.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -68.2457 235.3702)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="214.6" y="264.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -138.9556 264.6589)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="114.6" y="264.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -168.2149 193.8783)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="100.1,400 200.1,400 150.1,350 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon class="st0" points="0.1,400 100.1,400 50.1,350 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					
+						<rect x="14.6" y="264.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -197.5035 123.1685)" class="st0" width="70.7" height="70.7"/>
+				</g>
+			</g>
 		</g>
 	</g>
 </g>

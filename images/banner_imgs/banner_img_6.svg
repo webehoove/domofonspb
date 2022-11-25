@@ -3,11 +3,15 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A126E9;}
+	.st0{fill:#AF55F0;}
 </style>
 <g>
 	<g>
-		<path class="st0" d="M0,0v400h400V0H0z M262.5,262.5h-125v-125h125V262.5z"/>
+		<g>
+			<g>
+				<path class="st0" d="M0,0v400h400V0H0z M262.5,262.5h-125v-125h125V262.5z"/>
+			</g>
+		</g>
 	</g>
 </g>
 </svg>
