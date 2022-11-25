@@ -270,7 +270,7 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 2.25rem;
+		font-size: 2.5rem;
 	}
 
 	h3 {
@@ -290,7 +290,7 @@ input, select, textarea {
 	}
 	
 	.logo_top img {
-		width: 180px;
+		width: 160px;
 	}
 	
 	.logo_bottom img {
@@ -340,14 +340,20 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px;
-		margin: 5rem 0;
+		border-bottom: none;
+		margin: 2rem 0;
 	}
 
 		hr.major {
 			border: 0;
 		    border-bottom: none;
-			margin: 1.25rem 0;
+			margin: 3.5rem 0;
+		}
+		
+		hr.minor {
+			border: 0;
+		    border-bottom: none;
+			margin: 1rem 0;
 		}
 
 	.align-left {
@@ -365,10 +371,14 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		hr {
-			margin: 4rem 0;
+			margin: 2rem 0;
 		}
 		
 		hr.major {
+			margin: 3rem 0;
+		}
+		
+		hr.minor {
 			margin: 1rem 0;
 		}
 
@@ -381,7 +391,11 @@ input, select, textarea {
 		}
 		
 		hr.major {
-			margin: 0.5rem 0;
+			margin: 3rem 0;
+		}
+		
+		hr.minor {
+			margin: 1rem 0;
 		}
 
 	}
@@ -393,7 +407,11 @@ input, select, textarea {
 		}
 		
 		hr.major {
-			margin: 0.5rem 0;
+			margin: 3rem 0;
+		}
+		
+		hr.minor {
+			margin: 1rem 0;
 		}
 
 	}
@@ -401,11 +419,11 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.5rem;
+			font-size: 2rem;
 		}
 	
 	    h1.major {
-		    font-size: 2rem;
+		    font-size: 2.5rem;
 	    }
 
 		h2 {
@@ -425,7 +443,11 @@ input, select, textarea {
 		}
 		
 		hr.major {
-			margin: 0.25rem 0;
+			margin: 2rem 0;
+		}
+		
+		hr.minor {
+			margin: 0.5rem 0;
 		}
 		
 		.logo_top img {
@@ -460,7 +482,7 @@ input, select, textarea {
 	}
 	
 	.t_color1 {
-		color: rgba(161, 38, 233, 1);
+		color: rgba(160, 40, 235, 1);
 	}
 	
 	.t_color2 {
@@ -5831,7 +5853,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(31, 0, 46, 1);
+			background-color: rgba(30, 0, 45, 1);
 			color: #ffffff;
 		}
 
@@ -6127,11 +6149,11 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(161, 38, 233, 1);
+			background-color: rgba(100, 20, 150, 1);
 		}
 
 		#wrapper > .color2 {
-			background-color: rgba(240, 240, 245, 1);
+			background-color: rgba(245, 235, 255, 1);
 		}
 
 		#wrapper > .color3 {
