@@ -5,20 +5,6 @@
 <style type="text/css">
 	.st0{fill:#AF55F0;}
 </style>
-<g>
-	<g>
-		<g>
-			<g>
-				<g>
-					<rect x="135" class="st0" width="130" height="400"/>
-				</g>
-			</g>
-			<g>
-				<g>
-					<rect y="135" class="st0" width="400" height="130"/>
-				</g>
-			</g>
-		</g>
-	</g>
-</g>
+<path class="st0" d="M400,135H277c-6.6,0-12-5.4-12-12V0H135v123c0,6.6-5.4,12-12,12H0v130h123c6.6,0,12,5.4,12,12v123h130V277
+	c0-6.6,5.4-12,12-12h123V135z"/>
 </svg>

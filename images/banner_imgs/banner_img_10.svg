@@ -6,29 +6,7 @@
 	.st0{fill:#CD96F5;}
 </style>
 <g>
-	<g>
-		<g>
-			<g>
-				<g>
-					<polygon class="st0" points="0,200 200,400 200,200 					"/>
-				</g>
-			</g>
-			<g>
-				<g>
-					<polygon class="st0" points="200,0 400,200 400,0 					"/>
-				</g>
-			</g>
-			<g>
-				<g>
-					<polygon class="st0" points="0,0 200,200 200,0 					"/>
-				</g>
-			</g>
-			<g>
-				<g>
-					<polygon class="st0" points="200,200 400,400 400,200 					"/>
-				</g>
-			</g>
-		</g>
-	</g>
+	<path class="st0" d="M87,0H0l200,200V14.5c0-5.3,6.5-8,10.2-4.2L400,200V0H281H87z"/>
+	<path class="st0" d="M87,200H0l200,200V214.5c0-5.3,6.5-8,10.2-4.2L400,400V200H281H87z"/>
 </g>
 </svg>

@@ -4,24 +4,10 @@
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#AF55F0;}
-	.st1{fill:#641496;}
+	.st1{fill:none;}
 </style>
-<g>
-	<g>
-		<g>
-			<g>
-				<g>
-					<polygon class="st0" points="400,0 0,0 200,200 					"/>
-				</g>
-			</g>
-			<g>
-				<g>
-					<polygon class="st0" points="0,400 400,400 200,200 					"/>
-				</g>
-			</g>
-		</g>
-	</g>
-</g>
+<path class="st0" d="M208.5,191.3L399.8,0H0l191.4,191.8c4.7,4.7,4.7,12.3,0,17L0,400h399.8L208.5,208.2
+	C203.8,203.5,203.8,195.9,208.5,191.3z"/>
 <g>
 	<line class="st1" x1="801" y1="275" x2="801" y2="125"/>
 </g>
