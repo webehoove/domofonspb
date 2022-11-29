@@ -3,12 +3,14 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#AF55F0;}
-	.st1{fill:none;}
+	.st0{fill:none;}
+	.st1{fill:#AF55F0;}
 </style>
-<path class="st0" d="M208.5,191.3L399.8,0H0l191.4,191.8c4.7,4.7,4.7,12.3,0,17L0,400h399.8L208.5,208.2
-	C203.8,203.5,203.8,195.9,208.5,191.3z"/>
 <g>
-	<line class="st1" x1="801" y1="275" x2="801" y2="125"/>
+	<line class="st0" x1="801" y1="275" x2="801" y2="125"/>
+</g>
+<g>
+	<path class="st1" d="M210.6,210.8c-5.9-5.9-5.9-15.3,0-21.2L400,0H0.1l189.3,189.2c5.9,5.9,5.9,15.3,0,21.2L0,400h399.9
+		L210.6,210.8z"/>
 </g>
 </svg>
