@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 300 59.6" style="enable-background:new 0 0 300 59.6;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A028EB;}
+	.st0{fill:#FFFFFF;}
 </style>
 <g>
 	<g>
@@ -24,10 +24,10 @@
 			<polygon class="st0" points="96.3,40.4 87.6,40.4 73.9,59.3 83.4,59.3 			"/>
 		</g>
 	</g>
-	<g id="_x3C_Groupsymbol_x3E__7_">
+	<g id="_x3C_Groupsymbol_x3E__3_">
 		<g>
-			<path class="st0" d="M37,0H19.6C8.8,0,0,8.8,0,19.6v5.8c0,10.8,8.8,19.6,19.6,19.6h18.1v-9.1H11.4c-1.2,0-2.2-1-2.2-2.2V11.4
-				c0-1.2,1-2.2,2.2-2.2h33.8c1.2,0,2.2,1,2.2,2.2v47.9h9.2V19.6C56.7,8.8,47.9,0,37,0z"/>
+			<path class="st0" d="M37.4,0H19.3C8.6,0,0,8.6,0,19.3v6.5c0,10.6,8.6,19.3,19.3,19.3h18.4v-9.1H13c-2,0-3.7-1.7-3.7-3.7V13
+				c0-2,1.7-3.7,3.7-3.7h30.8c2,0,3.7,1.7,3.7,3.7v46.3h9.2v-40C56.7,8.6,48.1,0,37.4,0z"/>
 		</g>
 		<polygon class="st0" points="25.8,21.6 14.3,21.6 33.9,40.5 14.4,59.3 26,59.3 44.8,40.5 		"/>
 	</g>
