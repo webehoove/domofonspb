@@ -93,28 +93,37 @@
                             <div class="row">
 										<div class="col-7 col-12-small">
                                         
-                                             <h1 class="t_bold">Почему так <span style="color:#FC2755;">важно знать</span> свои права и уметь их <span style="color:#691CC2;">отстаивать</span></h1>
+                                             <h1 class="t_bold">Почему так <span style="color:#FC2755;">важно знать</span> свои права и уметь их <span style="color:#8F3BF2;">отстаивать</span></h1>
                                              <hr class="major" />
                                         
                                         </div>
 						     </div>
                              <div class="row">
-										<div class="col-3 col-12-small box">
+										<div class="col-3 col-12-small">
                                         
+                                             <span class="image fit" style="width:33%"><img src="images/icons/icon_right1.svg" onContextMenu="return false;" alt="" /></span>
+                                             <hr />
                                              <h4>Как часто в магазинах вам навязывают приобретение дополнительных услуг (страховки, лицезии и т.д.)?</h4>
+                                             <hr class="major" />
                                         
                                         </div>
-                                        <div class="col-3 col-12-small box">
+                                        <div class="col-3 col-12-small">
                                         
-                                             <h4>Как часто, приходя ко врачу к назначенному времени, вы вынуждены ждать по 2-3 часа? </h4>
+                                             <span class="image fit" style="width:33%"><img src="images/icons/icon_right2.svg" onContextMenu="return false;" alt="" /></span>
+                                             <hr />
+                                             <h4>Как часто, приходя ко врачу к назначенному времени, вы вынуждены ждать по 2-3 часа?</h4>
+                                             <hr class="major" />
                                         
                                         </div>
-                                        <div class="col-3 col-12-small box">
+                                        <div class="col-3 col-12-small">
                                         
+                                             <span class="image fit" style="width:33%"><img src="images/icons/icon_right1.svg" onContextMenu="return false;" alt="" /></span>
+                                             <hr />
                                              <h4>Как часто в магазинах на кассе вам пробивают товар не по той цене, которая указана на ценнике?</h4>
+                                             <hr class="major" />
                                         
                                         </div>
-                                        <div class="col-3 col-12-small box">
+                                        <div class="col-3 col-12-small">
                                         
                                              <h4>А вы знали, что все эти и еще многие другие ситуации являются нарушением прав потребителей? </h4>
                                         
@@ -169,7 +178,7 @@ $( document ).ready(async function() {
   carousel(carouselText, "#feature-text")
 });
 
-async function typeSentence(sentence, eleRef, delay = 50) {
+async function typeSentence(sentence, eleRef, delay = 40) {
   const letters = sentence.split("");
   let i = 0;
   while(i < letters.length) {
@@ -196,9 +205,9 @@ async function carousel(carouselList, eleRef) {
     while(true) {
       updateFontColor(eleRef, carouselList[i].color)
       await typeSentence(carouselList[i].text, eleRef);
-      await waitForMs(1500);
+      await waitForMs(2000);
       await deleteSentence(eleRef);
-      await waitForMs(500);
+      await waitForMs(100);
       i++
       if(i >= carouselList.length) {i = 0;}
     }
