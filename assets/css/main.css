@@ -698,15 +698,15 @@ input, select, textarea {
 
 		.row {
 			margin-top: 0;
-			margin-left: -0.5rem;
+			margin-left: -2rem;
 		}
 
 			.row > * {
-				padding: 0.5rem 0 0 0.5rem;
+				padding: 2rem 0 0 2rem;
 			}
 
 			.row.gtr-uniform {
-				margin-top: -0.5rem;
+				margin-top: -2rem;
 			}
 
 				.row.gtr-uniform > * {
@@ -941,15 +941,15 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -2rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 2rem 0 0 2rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -2rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1186,15 +1186,15 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -2rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 2rem 0 0 2rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -2rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1431,15 +1431,15 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -2rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 2rem 0 0 2rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -2rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1676,15 +1676,15 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -2rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 2rem 0 0 2rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -2rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2466,7 +2466,7 @@ input, select, textarea {
 
 	.box {
 		background-color: inherit;
-		border-radius: 0;
+		border-radius: 2rem;
 		border: none;
 		margin-bottom: 2rem;
 		padding: 1.5rem;
@@ -4878,82 +4878,51 @@ input, select, textarea {
 
 /* Wrapper (style2) */
 
-	.wrapper.style2 {
-		padding: 0;
+	.wrapper.style2 > .inner {
+		padding: 0 2rem 2rem 2rem;
+		margin: 0 auto;
+		max-width: 100rem;
+		width: 100%;
 	}
+
+		.wrapper.style2 > .inner.medium {
+			width: 48rem;
+		}
+
+		.wrapper.style2 > .inner.small {
+			width: 32rem;
+		}
+
+	@media screen and (max-width: 1680px) {
 
 		.wrapper.style2 > .inner {
-			padding: 5.25rem 3.5rem 3.25rem 3.5rem ;
-			background-color: #f5f5f5;
-			margin: 0 auto;
-			max-width: 100rem;
-			width: 100%;
-			position: relative;
-			z-index: 1;
+			padding: 0 2rem 2rem 2rem;
 		}
 
-			.wrapper.style2 > .inner.medium {
-				width: 48rem;
-			}
-
-			.wrapper.style2 > .inner.small {
-				width: 32rem;
-			}
-
-		@media screen and (max-width: 1680px) {
-
-			.wrapper.style2 {
-				padding: 5rem;
-			}
-
-				.wrapper.style2 > .inner {
-					padding: 3.75rem 2.5rem 1.75rem 2.5rem ;
-				}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			.wrapper.style2 {
-				padding: 0;
-			}
-
-				.wrapper.style2 > .inner {
-					padding: 3rem 2rem 1rem 2rem ;
-				}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.wrapper.style2 {
-				padding: 0;
-			}
-
-				.wrapper.style2 > .inner {
-					padding: 3rem 2.25rem 1rem 2.25rem ;
-				}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.wrapper.style2 {
-				padding: 0;
-			}
-
-				.wrapper.style2 > .inner {
-					padding: 2rem 1.5rem 0.1rem 1.5rem ;
-				}
-
-		}
-
-	#wrapper > .wrapper.style2.invert:not(.color1):not(.color2):not(.color3):not(.color4):not(.color5):not(.color6):not(.color7) {
-		background-color: #222222;
 	}
 
-	#wrapper > .wrapper.style2.invert > .inner {
-		background-color: #000000;
+	@media screen and (max-width: 1280px) {
+
+		.wrapper.style2 > .inner {
+			padding: 0 2rem 2rem 2rem;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		.wrapper.style2 > .inner {
+			padding: 0 2rem 2rem 2rem;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.wrapper.style2 > .inner {
+			padding: 0 0.75rem 0.75rem 0.75rem;
+		}
+
 	}
 
 /* Items (transitions) */
@@ -5241,7 +5210,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		margin: 3rem 0;
+		margin: 2rem 0;
 		position: relative;
 	}
 
@@ -5254,9 +5223,7 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			border-style: solid;
-			border-left-width: 1px;
-			border-top-width: 1px;
+			background-color: #000;
 		}
 
 		.items.style1.big > * {
@@ -6166,7 +6133,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(165, 75, 255, 1);
+			background-color: rgba(204, 173, 255, 1);
 		}
 
 		#wrapper > .color2 {
