@@ -268,7 +268,7 @@ input, select, textarea {
 	
 	h1.major {
 		font-size: 5rem;
-		line-height: 0.85;
+		line-height: 0.8;
 	}
 
 	h2 {
@@ -462,6 +462,11 @@ input, select, textarea {
 		
 		.logo_top img {
 		    width: 120px;
+			padding-top: 0.35rem;
+	    }
+		
+		.hideit {
+			display: none;
 	    }
 
 	}
@@ -2540,7 +2545,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.9rem;
+			font-size: 0.8rem;
 			height: 2.325em;
 			line-height: 2.325em;
 			border-radius: 2.325em;
@@ -2552,11 +2557,11 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 0.8rem;
-			height: 4em;
-			line-height: 4em;
-			border-radius: 4em;
-			padding: 0 3em;
+			font-size: 1.2rem;
+			height: 3em;
+			line-height: 3em;
+			border-radius: 3em;
+			padding: 0 2em;
 		}
 
 		input[type="submit"].wide,
@@ -2586,7 +2591,7 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px rgba(161, 38, 233, 1);
+		box-shadow: inset 0 0 0 2px rgba(143, 59, 242, 1);
 		color: #000000 !important;
 	}
 
@@ -2595,8 +2600,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(161, 38, 233, 1);
-			box-shadow: inset 0 0 0 2px rgba(161, 38, 233, 1);
+			background-color: rgba(143, 59, 242, 1);
+			box-shadow: inset 0 0 0 2px rgba(143, 59, 242, 1);
 			color: #fff !important;
 		}
 
@@ -2615,7 +2620,9 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(161, 38, 233, 1);
+			font-family: 'YASans-Regular', sans-serif;
+		    font-weight: normal;
+		    background-color: rgba(143, 59, 242, 1);
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2625,7 +2632,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(161, 38, 233, 1);
+				background-color: rgba(70, 33, 112, 1);
 				box-shadow: none;
 			}
 
@@ -2634,7 +2641,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(161, 38, 233, 1);
+				background-color: rgba(70, 33, 112, 1);
 				box-shadow: none;
 			}
 
