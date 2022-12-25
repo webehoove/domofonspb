@@ -189,7 +189,7 @@ input, select, textarea {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(21, 21, 21, 1);
+		color: rgba(17, 17, 17, 1);
 	}
 
 	body, input, select, textarea {
@@ -268,7 +268,7 @@ input, select, textarea {
 	
 	h1.major {
 		font-size: 5rem;
-		line-height: 0.9;
+		line-height: 0.85;
 	}
 
 	h2 {
@@ -5863,7 +5863,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(30, 0, 45, 1);
+			background-color: rgba(17, 17, 17, 1);
 			color: #ffffff;
 		}
 
@@ -6159,7 +6159,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: rgba(100, 20, 150, 1);
+			background-color: rgba(165, 75, 255, 1);
 		}
 
 		#wrapper > .color2 {
