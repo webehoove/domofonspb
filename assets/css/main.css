@@ -2467,8 +2467,7 @@ input, select, textarea {
 	.box {
 		background-color: inherit;
 		border-radius: 2rem;
-		border: none;
-		margin-bottom: 2rem;
+		margin: 0;
 		padding: 4rem;
 	}
 
@@ -4875,7 +4874,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.75rem ;
+			padding: 1.25rem ;
 		}
 
 	}
@@ -4924,7 +4923,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style2 > .inner {
-			padding: 0 0.75rem 0.75rem 0.75rem;
+			padding: 0 1.25rem 1.25rem 1.25rem;
 		}
 
 	}
