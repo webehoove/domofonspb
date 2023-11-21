@@ -5,9 +5,15 @@
            font-display: swap;
            font-style: normal;
         }
-		@font-face {
+@font-face {
            font-family: CONCEPTASANS-Regular;
            src: url(../webfonts/CONCEPTASANS-Regular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+@font-face {
+           font-family: CDSans-Titles;
+           src: url(../webfonts/CDSans-Titles.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
@@ -175,7 +181,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #010101;
-		font-family: 'CONCEPTASANS-Regular', Helvetica, sans-serif;
+		font-family: 'CDSans-Titles', Helvetica, sans-serif;
 		font-weight: normal;
 		letter-spacing: 0;
 		line-height: 1.3;
