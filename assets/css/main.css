@@ -18,8 +18,8 @@
            font-style: normal;
         }
 @font-face {
-           font-family: CDSans-T;
-           src: url(../webfonts/CDSans-T.woff2) format('woff2');
+           font-family: CDS-T;
+           src: url(../webfonts/CDS-T.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
@@ -186,7 +186,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #010101;
-		font-family: 'CDSans-T', Helvetica, sans-serif;
+		font-family: 'CDS-T', Helvetica, sans-serif;
 		font-weight: normal;
 		letter-spacing: 0;
 		line-height: 1.3;
