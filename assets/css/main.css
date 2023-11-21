@@ -1,7 +1,7 @@
 
 @font-face {
-           font-family: CDSans-Text-Regular;
-           src: url(../webfonts/CDSans-Text-Regular.woff2) format('woff2');
+           font-family: cdsans-text-regular-webfont;
+           src: url(../webfonts/cdsans-text-regular-webfont.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
@@ -186,7 +186,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #010101;
-		font-family: 'CDSans-Text-Regular', Helvetica, sans-serif;
+		font-family: 'cdsans-text-regular-webfont', Helvetica, sans-serif;
 		font-weight: normal;
 		letter-spacing: 0;
 		line-height: 1.3;
