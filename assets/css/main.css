@@ -213,7 +213,7 @@ input, select, textarea {
 			font-size: 1.25rem;
 		}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2 {
 		font-family: 'CDS-T', Helvetica, sans-serif;
 		font-weight: normal;
 		letter-spacing: 0;
@@ -225,24 +225,13 @@ input, select, textarea {
 			text-decoration: none;
 		}
 		
+		.title {
+			font-family: 'CDS-T', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
 		.upup {
 			text-transform: uppercase;
-			letter-spacing: 0;
-		}
-		
-		.medium {
-			font-family: 'BS Medium', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.bold {
-			font-family: 'NewRailAlphabet Bold WEB', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.black {
-			font-family: 'NewRailAlphabet Black WEB', Helvetica, sans-serif;
-		    font-weight: normal;
 		}
 
 	h1 {
@@ -351,12 +340,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		h1 {
-			font-size: 3rem;
+			font-size: 4rem;
 		}
-	
-	    h1.major {
-		    font-size: 3.75rem;
-	    }
 
 		h2 {
 			font-size: 2.5rem;
@@ -382,17 +367,9 @@ input, select, textarea {
 	
 	@media screen and (max-width: 980px) {
 
-		p {
-			padding: 0;
-		}
-		
 		h1 {
-			font-size: 2rem;
+			font-size: 3rem;
 		}
-	
-	    h1.major {
-		    font-size: 2.35rem;
-	    }
 
 		h2 {
 			font-size: 2rem;
@@ -6125,7 +6102,7 @@ input, select, textarea {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0 0.5rem 0.5rem 0.5rem ;
+		padding: 1rem 2rem 2rem 2rem ;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -6141,7 +6118,7 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.5rem 0.5rem 0.5rem ;
+			padding: 1rem 2rem 2rem 2rem ;
 		}
 
 	}
@@ -6149,7 +6126,7 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.5rem 0.5rem 0.5rem ;
+			padding: 1rem 2rem 2rem 2rem ;
 		}
 
 	}
@@ -6157,7 +6134,7 @@ input, select, textarea {
 	@media screen and (max-width: 980px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.5rem 0.5rem 0.5rem ;
+			padding: 1rem 2rem 2rem 2rem ;
 		}
 
 	}
@@ -7163,7 +7140,7 @@ input, select, textarea {
 	}
 
 		#wrapper > .invert {
-			background-color: #000;
+			background-color: #010101;
 			color: #ffffff;
 		}
 
@@ -7473,11 +7450,19 @@ input, select, textarea {
 		}
 
 		#wrapper > .color02 {
-			background-color: #b3b3b3;
+			background-color: #BA71FF;
 		}
 
 		#wrapper > .color03 {
-			background-color: #4d4d4d;
+			background-color: #FFE266;
+		}
+
+		#wrapper > .color04 {
+			background-color: #33E5E5;
+		}
+
+		#wrapper > .color05 {
+			background-color: #6675FF;
 		}
 		
 		#wrapper.divided > * {
