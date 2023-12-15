@@ -255,7 +255,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 1.75rem;
 		line-height: 1.2;
 	}
 
@@ -357,7 +357,7 @@ input, select, textarea {
 		}
 
 		h3 {
-			font-size: 1.25rem;
+			font-size: 1.5rem;
 		}
 
 		h4 {
@@ -385,7 +385,7 @@ input, select, textarea {
 		}
 
 		h3 {
-			font-size: 1.25rem;
+			font-size: 1.5rem;
 		}
 
 		h4 {
@@ -2465,10 +2465,9 @@ input, select, textarea {
 		font-size: 1rem;
 		max-width: 20rem;
 		height: 3.25em;
-		line-height: 3.25em;
+		line-height: 3.5em;
 		border-radius: 0;
 		padding: 0 2em;
-		text-overflow: ellipsis;
 		overflow: hidden;
 	}
 
@@ -7156,12 +7155,10 @@ input, select, textarea {
 
 			#wrapper > .invert a {
 				color: #ffffff;
-				border-bottom: 1px solid rgba(255, 255, 255, 1);
 			}
 
 				#wrapper > .invert a:hover {
 					color: #ffffff;
-					border-bottom: 1px solid rgba(255, 255, 255, 1);
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
@@ -7224,8 +7221,7 @@ input, select, textarea {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: #ffffff;
-					box-shadow: none;
+					background-color: #BA71FF;
 					color: #010101 !important;
 				}
 
@@ -7234,7 +7230,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: #BA71FF;
+						background-color: #fff;
 					}
 
 					#wrapper > .invert input[type="submit"].primary:active,
@@ -7242,7 +7238,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: #BA71FF;
+						background-color: #fff;
 					}
 
 			#wrapper > .invert label {
