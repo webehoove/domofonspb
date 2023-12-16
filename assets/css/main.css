@@ -2439,6 +2439,22 @@ input, select, textarea {
 	.box {
 		border-color: rgba(0, 0, 0, 1);
 	}
+	
+	.boxalt {
+		background-color: inherit;
+		border-left: none;
+		padding: 2rem 1rem 2rem 1rem;
+	}
+
+		.boxalt > :last-child,
+		.boxalt > :last-child > :last-child,
+		.boxalt > :last-child > :last-child > :last-child {
+			margin-bottom: 0;
+		}
+
+	.boxalt {
+		border-color: rgba(0, 0, 0, 1);
+	}
 
 /* Button */
 
