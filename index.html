@@ -18,7 +18,7 @@
 }
 
 .video-container video {
-  width: 80%;
+  width: 75%;
   height: 100%;
   position: absolute;
   object-fit: cover;
@@ -30,13 +30,20 @@
 	
 	@media screen and (max-width: 980px) {
 		
-		.video-container video {
+    .video-container video {
            width: 100%;
+    }
+	
+	.ice {
+		   display: flex;
+           float: right;
+		   margin-right: 0.5rem;
     }
 }
 
 		
 </style>
+
 	</head>
 	<body class="is-preload">
     
@@ -54,7 +61,7 @@
                                              <h3 class="title">Concepta</h3>
                                         
                                         </div>
-                                        <div class="col-6 off-12-small">
+                                        <div class="col-5 off-12-small">
                                         
                                              <ul class="upup">
                                                 <li>About</li>
@@ -65,7 +72,13 @@
                                              </ul>
                                              
                                         </div>
-					</div>
+                                        <div class="col-1 col-6-small" style="position:fixed; display:flex; right:0; z-index:1;">
+                                        
+                                             <div class="image fit"><img class="ice" style="width:3rem;" src="imgs/ice_2024.svg" alt=""></div>
+                                             
+    
+                                        </div>
+					         </div>
 							
 					</div>
 					</section>
@@ -270,17 +283,19 @@
                     
                 <!-- 3 -->
 					<section class="wrapper style1 align-left">
-						<div class="inner">                            
+						<div class="video-container inner">
+                        <video id="videobg" data-src="imgs/eye.webm" data-mobsrc="imgs/eye.webm" placeholder="" preload="auto" autoplay loop muted="" playsinline="" src="imgs/eye.webm">
+                        </video>                            
                             <div class="row">
                                         <div class="col-6 col-12-small">
                                         
-                                             <h1>Our Work</h1>
+                                             <h1>Our blog</h1>
 						                     <hr>
                                         
                                         </div>
-                                        <div class="col-5 col-12-small">
+                                        <div class="col-4 col-12-small">
                                         
-                                             <h4>We’re dedicated to assisting iGaming brands in navigating the competitive digital landscape with our service offerings.</h4>
+                                             <h4>The latest news, technologies, and resources from our team.</h4>
 					                         <hr>
                                         
                                         </div>
@@ -288,42 +303,38 @@
                             </div>
                             <div class="row">
                                         
-                                        <div class="col-6 col-12-small">
+                                        <div class="col-4 col-12-small" style="z-index:1;">
                                         
-                                             <div class="image fit">
-                                             <video id="videobg" data-src="imgs/rocket.webm" data-mobsrc="imgs/rocket.webm" placeholder="" preload="auto" autoplay loop muted="" playsinline="" src="imgs/rocket.webm">
-                        </video>
+                                             <div class="boxalt" style="background-color:rgba(51, 229, 229, .8);">
+                                                 <p>December 4, 2023</p>
+                                                 <h3 class="title" style="margin-bottom:1rem;">Unleashing Digital Excellence</h3>
+                                                 <p>We transcend the ordinary, transforming digital landscapes to empower iGaming operators with strategic marketing solutions that captivate audiences and drive sustainable growth.</p>
+                                                 <h5>Read more</h5>
+                                             
                                              </div>
                                              <hr>
                                         
                                         </div>
-                                        <div class="col-6 col-12-small">
+                                        <div class="col-4 col-12-small" style="z-index:1;">
                                         
-                                             <div class="image fit">
-                                             <video id="videobg" data-src="imgs/cog.webm" data-mobsrc="imgs/cog.webm" placeholder="" preload="auto" autoplay loop muted="" playsinline="" src="imgs/cog.webm">
-                        </video>
+                                             <div class="boxalt" style="background-color:rgba(51, 229, 229, .8);">
+                                                 <p>December 4, 2023</p>
+                                                 <h3 class="title" style="margin-bottom:1rem;">Unleashing Digital Excellence</h3>
+                                                 <p>We transcend the ordinary, transforming digital landscapes to empower iGaming operators with strategic marketing solutions that captivate audiences and drive sustainable growth.</p>
+                                                 <h5>Read more</h5>
+                                             
                                              </div>
                                              <hr>
                                         
                                         </div>
+                                        <div class="col-4 col-12-small" style="z-index:1;">
                                         
-                            </div>
-                            <div class="row">
-                                        
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <div class="image fit">
-                                             <video id="videobg" data-src="imgs/rocket.webm" data-mobsrc="imgs/rocket.webm" placeholder="" preload="auto" autoplay loop muted="" playsinline="" src="imgs/rocket.webm">
-                        </video>
-                                             </div>
-                                             <hr>
-                                        
-                                        </div>
-                                        <div class="col-6 col-12-small">
-                                        
-                                             <div class="image fit">
-                                             <video id="videobg" data-src="imgs/cog.webm" data-mobsrc="imgs/cog.webm" placeholder="" preload="auto" autoplay loop muted="" playsinline="" src="imgs/cog.webm">
-                        </video>
+                                             <div class="boxalt" style="background-color:rgba(51, 229, 229, .8);">
+                                                 <p>December 4, 2023</p>
+                                                 <h3 class="title" style="margin-bottom:1rem;">Unleashing Digital Excellence</h3>
+                                                 <p>We transcend the ordinary, transforming digital landscapes to empower iGaming operators with strategic marketing solutions that captivate audiences and drive sustainable growth.</p>
+                                                 <h5>Read more</h5>
+                                             
                                              </div>
                                              <hr>
                                         
@@ -343,7 +354,7 @@
 					</section>
                     
                 <!-- 5 -->
-					<section class="wrapper style1 invert align-left">
+					<section class="wrapper style1 align-left">
 						<div class="inner">
                             
                             <div class="row">
@@ -393,13 +404,13 @@
                                         </div>
                                         
                             </div>
-                            <div class="row">
+                            <div class="row" style="font-size:0.8rem;">
                                         <div class="col-6 col-12-small">
                                         
-                                             <h5 style="color:#555555;">Copyright © 2023. All rights reserved.</h5>
+                                             <span style="color:#555555;">Copyright © 2023. All rights reserved.</span>
                                         
                                         </div>
-                                        <div class="col-6 col-6-small">
+                                        <div class="col-6 off-12-small">
                                         
                                              <ul class="upup" style="color:#555555;">
                                                 <li>Privacy policy</li>
