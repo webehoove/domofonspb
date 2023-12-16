@@ -2443,7 +2443,7 @@ input, select, textarea {
 	.boxalt {
 		background-color: inherit;
 		border-left: none;
-		padding: 2rem 1rem 2rem 1rem;
+		padding: 1.25rem 1rem 2rem 1rem;
 	}
 
 		.boxalt > :last-child,
