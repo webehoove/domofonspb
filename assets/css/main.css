@@ -174,7 +174,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		color: #010101;
+		color: #000000;
 		font-family: 'cdsans-text-regular-webfont', Helvetica, sans-serif;
 		font-weight: normal;
 		letter-spacing: 0;
@@ -230,18 +230,8 @@ input, select, textarea {
 			letter-spacing: 0;
 		}
 		
-		.medium {
-			font-family: 'BS Medium', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.bold {
-			font-family: 'NewRailAlphabet Bold WEB', Helvetica, sans-serif;
-		    font-weight: normal;
-		}
-		
-		.black {
-			font-family: 'NewRailAlphabet Black WEB', Helvetica, sans-serif;
+		.text_type {
+			font-family: 'cdsans-text-regular-webfont', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
