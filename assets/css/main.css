@@ -466,6 +466,7 @@ input, select, textarea {
 
 		h1 {
 			font-size: 1.6rem;
+			letter-spacing: 0;
 		}
 	
 	    h1.major {
