@@ -274,8 +274,8 @@ input, select, textarea {
 		
 		.bold {
 			font-family: 'Neue Montreal', sans-serif;
-			font-weight: 700;
-	        font-variation-settings: "wght" 700;
+			font-weight: 600;
+	        font-variation-settings: "wght" 600;
 		}
 		
 		.italic {
@@ -376,8 +376,6 @@ input, select, textarea {
 	}
 	
 	.logo_wb {
-		font-family: 'WNM-Bold-text', sans-serif;
-		font-weight: normal;
 		position: fixed;
 		z-index: 1;
 	}
