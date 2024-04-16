@@ -1,5 +1,3 @@
-
-
 (function($) {
 
 	var $window = $(window);
@@ -12,7 +10,7 @@
 				'.demo-controls .property[data-requires] { display: none; }' +
 				'.demo-controls .property[data-requires].active { display: inline; }' +
 				'.demo-controls .property .tooltip { position: relative; }' +
-				'.demo-controls .property .tooltip:before { content: \'Click to change!\'; font-size: 1rem; position: absolute; bottom: 100%; left: 0; background: #47D3E5; color: #ffffff; line-height: 1; white-space: nowrap; font-weight: bold; border-radius: 0.125rem; padding: 0.325rem 0.425rem; animation: demo-controls-tooltip 1.5s forwards; animation-delay: 1s; opacity: 0; }' +
+				'.demo-controls .property .tooltip:before { content: \'Click to change!\'; font-size: 0.7rem; position: absolute; bottom: 100%; left: 0; background: #47D3E5; color: #ffffff; line-height: 1; white-space: nowrap; font-weight: bold; border-radius: 0.125rem; padding: 0.325rem 0.425rem; animation: demo-controls-tooltip 1.5s forwards; animation-delay: 1s; opacity: 0; }' +
 				'.demo-controls .property .tooltip:after { content: \'\'; position: absolute; bottom: calc(100% - 0.25rem); left: 0.5rem; border-left: solid 0.5rem transparent; border-right: solid 0.5rem transparent; border-top: solid 0.5rem #47D3E5; width: 0.5rem; height: 0.5rem; animation: demo-controls-tooltip 1.5s forwards; animation-delay: 1s; opacity: 0; }' +
 				'@keyframes demo-controls-tooltip {' +
 					'0% { opacity: 0; transform: translateY(0); }' +
@@ -68,19 +66,10 @@
 							'</span>' +
 							(options.palette ?
 								'<span class="property active" data-name="scheme">' +
-									'<a href="#" class="title">Change scheme</a>' +
+									'<a href="#" class="title">Scheme</a>' +
 									'<span class="classes">' +
 										'<span data-class="-" class="active">default</span>' +
 										'<span data-class="invert">invert</span>' +
-									'</span>, ' +
-								'</span>' +
-								'<span class="property active" data-name="color">' +
-									'<a href="#" class="title">color</a>' +
-									'<span class="classes">' +
-										'<span data-class="-" class="active">default</span>' +
-										'<span data-class="color01">color01</span>' +
-										'<span data-class="color02">color02</span>' +
-										'<span data-class="color03">color03</span>' +
 									'</span>, ' +
 								'</span>'
 							: '') +
@@ -94,19 +83,10 @@
 						'<span class="demo-controls">' +
 							(options.palette ?
 								'<span class="property active" data-name="scheme">' +
-									'<a href="#" class="title">Change scheme</a>' +
+									'<a href="#" class="title">Scheme</a>' +
 									'<span class="classes">' +
 										'<span data-class="-" class="active">default</span>' +
 										'<span data-class="invert">invert</span>' +
-									'</span> and ' +
-								'</span>' +
-								'<span class="property active" data-name="color">' +
-									'<a href="#" class="title">color</a>' +
-									'<span class="classes">' +
-										'<span data-class="-" class="active">default</span>' +
-										'<span data-class="color01">color01</span>' +
-										'<span data-class="color02">color02</span>' +
-										'<span data-class="color03">color03</span>' +
 									'</span>' +
 								'</span>'
 							: '') +
