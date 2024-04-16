@@ -215,7 +215,7 @@ input, select, textarea {
 		font-variation-settings: "wght" 450;
 		font-size: 1rem;
 		font-style: normal;
-		letter-spacing: -0.01em;
+		letter-spacing: 0;
 		line-height: 1.15;
 	}
 
