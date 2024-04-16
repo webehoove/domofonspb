@@ -232,8 +232,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 700;
-	    font-variation-settings: "wght" 700;
+		font-weight: 650;
+	    font-variation-settings: "wght" 650;
 	}
 
 	em, i {
@@ -274,8 +274,8 @@ input, select, textarea {
 		
 		.bold {
 			font-family: 'Neue Montreal', sans-serif;
-			font-weight: 600;
-	        font-variation-settings: "wght" 600;
+			font-weight: 650;
+	        font-variation-settings: "wght" 650;
 		}
 		
 		.italic {
