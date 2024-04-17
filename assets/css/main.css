@@ -232,8 +232,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 650;
-	    font-variation-settings: "wght" 650;
+		font-weight: 700;
+	    font-variation-settings: "wght" 700;
 	}
 
 	em, i {
@@ -274,8 +274,8 @@ input, select, textarea {
 		
 		.bold {
 			font-family: 'Neue Montreal', sans-serif;
-			font-weight: 650;
-	        font-variation-settings: "wght" 650;
+			font-weight: 700;
+	        font-variation-settings: "wght" 700;
 		}
 		
 		.italic {
@@ -374,6 +374,22 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
+	
+	.demo-controls img {
+		display: flex;
+        justify-content: flex-end;
+        margin-left: auto;
+        margin-right: 0;
+		width: 1rem;
+	} 
+	
+	   @media screen and (max-width: 820px) {
+
+		   .demo-controls img {
+			    position: absolute;
+	       } 
+
+	   }
 
 	@media screen and (max-width: 1280px) {
 
@@ -493,12 +509,10 @@ input, select, textarea {
 	}
 
 	a {
-		font-style: italic;
 		color: #121212;
 	}
 
 		a:hover {
-			font-style: ;
 			color: #121212;
 		}
 
@@ -4856,12 +4870,10 @@ input, select, textarea {
 
 			#wrapper > .invert a {
 				color: #ffffff;
-				font-style: italic;
 			}
 
 				#wrapper > .invert a:hover {
 					color: #ffffff;
-					font-style: normal;
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
