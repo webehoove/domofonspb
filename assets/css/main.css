@@ -360,7 +360,13 @@ input, select, textarea {
 		hr.major {
 			border: 0;
 		    border-bottom: none;
-			margin: 1.25rem 0;
+			margin: 5rem 0;
+		}
+		
+		hr.minor {
+			border: 0;
+		    border-bottom: none;
+			margin: 2rem 0;
 		}
 
 	.align-left {
@@ -385,8 +391,9 @@ input, select, textarea {
 	
 	   @media screen and (max-width: 820px) {
 
-		   .demo-controls img {
+		   .scheme {
 			    position: absolute;
+				right: 0.5rem;
 	       } 
 
 	   }
@@ -411,14 +418,6 @@ input, select, textarea {
 
 		h4 {
 			font-size: 1.1rem;
-		}
-		
-		hr {
-			margin: 3rem 0;
-		}
-		
-		hr.major {
-			margin: 1rem 0;
 		}
 
 	}
@@ -454,7 +453,11 @@ input, select, textarea {
 		}
 		
 		hr.major {
-			margin: 0.5rem 0;
+			margin: 3rem 0;
+		}
+		
+		hr.minor {
+			margin: 1.5rem 0;
 		}
 
 	}
@@ -499,7 +502,11 @@ input, select, textarea {
 		}
 		
 		hr.major {
-			margin: 0.25rem 0;
+			margin: 2.5rem 0;
+		}
+		
+		hr.minor {
+			margin: 1rem 0;
 		}
 
 	}
