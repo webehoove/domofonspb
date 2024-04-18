@@ -381,7 +381,8 @@ input, select, textarea {
 
 		   .scheme {
 			    position: absolute;
-				right: 0.5rem;
+				top: 0.05rem;
+			    right: 0.5rem;
 	       } 
 
 	   }
