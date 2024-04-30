@@ -255,7 +255,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'Neuefity Rg', Helvetica, sans-serif;
+		font-family: 'Neuefity Nm', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-feature-settings: 'ss02', 'ss03', 'ss07';
@@ -334,7 +334,7 @@ input, select, textarea {
 		}
 		
 		.logoname {
-			letter-spacing: -0.05rem;
+			letter-spacing: 0;
 		}
 
 	h1 {
