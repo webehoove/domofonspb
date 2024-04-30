@@ -329,6 +329,10 @@ input, select, textarea {
 		    font-weight: normal;
 		}
 		
+		.menutop {
+			font-size: 17px;
+		}
+		
 		.logoname {
 			letter-spacing: -0.05rem;
 		}
