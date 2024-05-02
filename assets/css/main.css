@@ -255,7 +255,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: 'Neuefity Nm', Helvetica, sans-serif;
+		font-family: 'Neuefity Rg', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-feature-settings: 'ss02', 'ss03', 'ss07';
