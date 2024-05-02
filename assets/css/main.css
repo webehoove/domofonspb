@@ -250,12 +250,12 @@ input, select, textarea {
 		}
 
 	body {
-		background-color: #ffffff;
+		background-color: #eff1f6;
 		color: #121212;
 	}
 
 	body, input, select, textarea {
-		font-family: 'Neuefity Rg', Helvetica, sans-serif;
+		font-family: 'Neuefity Nm', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-feature-settings: 'ss02', 'ss03', 'ss07';
