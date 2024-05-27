@@ -4491,7 +4491,7 @@ input, select, textarea {
 
 		.banner.style5 .content {
 			position: relative;
-			width: 100%;
+			width: 100vh;
 			overflow-x: hidden;
 			z-index: 1;
 		}
