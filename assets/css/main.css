@@ -4500,8 +4500,7 @@ input, select, textarea {
 		.banner.style5 .content {
 			position: relative;
 			width: 100vh;
-			height: 100svh;
-			overflow-x: hidden;
+			overflow: hidden;
 			z-index: 1;
 		}
 
@@ -4541,7 +4540,6 @@ input, select, textarea {
                 max-height: 100%;
                 min-width: 100%;
                 min-height: 100%;
-				height: 100svh;
 			}
 			
 			.banner.style5 .image video {
@@ -4562,7 +4560,6 @@ input, select, textarea {
                 max-height: 100%;
                 min-width: 100%;
                 min-height: 100%;
-				height: 100svh;
 			}
 
 		@media screen and (max-width: 1680px) {
