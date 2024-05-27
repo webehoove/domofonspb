@@ -4492,6 +4492,7 @@ input, select, textarea {
 		.banner.style5 .content {
 			position: relative;
 			width: 100%;
+			overflow-x: hidden;
 			z-index: 1;
 		}
 
