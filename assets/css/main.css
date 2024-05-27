@@ -523,11 +523,11 @@ input, select, textarea {
 	}
 
 	a {
-		color: #121212;
+		color: rgba(0, 0, 0, 0.87);
 	}
 
 		a:hover {
-			color: #121212;
+			color: rgba(0, 0, 0, 1);
 		}
 
 	blockquote {
@@ -4480,6 +4480,8 @@ input, select, textarea {
 
 	.banner.style5 {
 		padding: 0 0.5rem 0.5rem 0.5rem ;
+		margin: 0 auto;
+		width: 100%;
 		-moz-align-items: left;
 		-webkit-align-items: left;
 		-ms-align-items: left;
@@ -4499,7 +4501,7 @@ input, select, textarea {
 
 		.banner.style5 .content {
 			position: relative;
-			width: 100vh;
+			width: 100%;
 			overflow: hidden;
 			z-index: 1;
 		}
@@ -4591,16 +4593,11 @@ input, select, textarea {
 			.banner.style5 {
 				padding: 0 0.5rem 0.5rem 0.5rem ;
 			}
-			
-			.banner.style5.fullscreen {
-			    height: 100svh;
-		    }
 
 		}
 
 		.banner.style5.fullscreen {
 			min-height: 100vh;
-			height: 100svh;
 		}
 
 		.banner.style5.content-align-left {
@@ -4896,11 +4893,11 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a {
-				color: #ffffff;
+				color: rgba(255, 255, 255, 0.87);
 			}
 
 				#wrapper > .invert a:hover {
-					color: #ffffff;
+					color: rgba(255, 255, 255, 1);
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
