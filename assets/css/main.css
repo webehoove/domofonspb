@@ -15,6 +15,14 @@
 }
 
 @font-face {
+    font-family: 'WB Sweet Rg It';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbh/sweetext-it-webfont.woff2) format('woff2'),
+	    url(../webfonts/wbh/neuefity-it-webfont.woff) format('woff');
+}
+
+@font-face {
     font-family: 'PP Neue Montreal';
     font-weight: 400;
     font-style: normal;
@@ -230,7 +238,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-family: 'Neuefity DmBd', Helvetica, sans-serif;;
+		font-family: 'WB Sweet Rg', Helvetica, sans-serif;;
         font-weight: normal;
 	}
 
@@ -263,9 +271,16 @@ input, select, textarea {
 		
 		.t_regular {
 			font-family: 'WB Sweet Rg', Helvetica, sans-serif;
-		   -webkit-font-smoothing: antialiased;
-	       -moz-osx-font-smoothing: grayscale;
-		   font-weight: normal;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
+		.t_rg_italic {
+			font-family: 'WB Sweet Rg It', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
 		}
 		
 		.logoname {
@@ -4564,7 +4579,7 @@ input, select, textarea {
 		}
 
 		.banner.style5.fullscreen {
-			min-height: 100vh;
+			min-height: 90vh;
 		}
 
 		.banner.style5.content-align-left {
