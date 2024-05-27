@@ -23,27 +23,20 @@
 }
 
 @font-face {
-    font-family: 'PP Neue Montreal';
-    font-weight: 400;
+    font-family: 'WB Sweet Md';
+    font-weight: normal;
     font-style: normal;
-    src:url(../webfonts/font-0ce3b95c3d3cd61d2489.woff2) format('woff2'),
-	    url(../webfonts/font-78e0a9ea7ab783b597fd.woff) format('woff');
+    src:url(../webfonts/wbh/sweetext-md-webfont.woff2) format('woff2'),
+	    url(../webfonts/wbh/neuefity-md-webfont.woff) format('woff');
 }
 
 @font-face {
-      font-family: 'Neue Montreal';
-      src: url('../webfonts/PPNeueMontreal-Variable.ttf?v=3406151675705070910') format('truetype');
-      font-weight: 1 999;
-      font-display: swap;
+    font-family: 'WB Sweet Md It';
+    font-weight: normal;
+    font-style: normal;
+    src:url(../webfonts/wbh/sweetext-mdit-webfont.woff2) format('woff2'),
+	    url(../webfonts/wbh/neuefity-mdit-webfont.woff) format('woff');
 }
-
-@font-face {
-      font-family: 'Neue Montreal';
-      src: url('../webfonts/PPNeueMontreal-Italic.woff2?v=829860060225883942') format('woff');
-      font-weight: 1 999;
-      font-display: swap;
-      font-style: italic;
- }
 
 
 
@@ -283,6 +276,20 @@ input, select, textarea {
 		    font-weight: normal;
 		}
 		
+		.t_medium {
+			font-family: 'WB Sweet Md', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
+		.t_md_italic {
+			font-family: 'WB Sweet Md It', Helvetica, sans-serif;
+		    -webkit-font-smoothing: antialiased;
+	        -moz-osx-font-smoothing: grayscale;
+		    font-weight: normal;
+		}
+		
 		.logoname {
 			letter-spacing: 0;
 		}
@@ -293,6 +300,7 @@ input, select, textarea {
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
 		font-size: 6rem;
+		line-height: 0.5;
 	}
 	
 	h1 {
