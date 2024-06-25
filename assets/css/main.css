@@ -293,11 +293,26 @@ input::-moz-focus-inner {
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
+		
+		.letter_d {
+			font-feature-settings: 'ss16';
+		}
 
 	.logotype img {
+		border-radius: 0;
 		width: 11rem;
 		margin-bottom: 2rem;
 	}
+	
+	.logosymbol_text {
+		margin-top: 2.8rem;
+	}
+	
+	.logosymbol img {
+		width: 6rem;
+		margin-bottom: 0;
+	}
+
 
 	.banner_mobile {
 		display: none;
@@ -322,6 +337,16 @@ input::-moz-focus-inner {
 	.banner_mobile {
 		display: block;
 		margin-bottom: 0.5rem;
+	}
+	
+	.logosymbol_text {
+		font-size: 15px;
+		margin-top: 1rem;
+	}
+	
+	.logosymbol img {
+		width: 4.5rem;
+		margin-bottom: 0;
 	}
 	
 	}
@@ -4883,13 +4908,18 @@ input::-moz-focus-inner {
 					color: rgba(255, 255, 255, 0.5);
 					border-bottom: none;
 				}
+				
+				#wrapper > .invert a:visited, #wrapper > .invert a:active {
+					color: rgba(255, 255, 255, 1);
+					border-bottom: none;
+				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
 				color: #ffffff;
 			}
 
 			#wrapper > .invert h3 {
-				color: rgba(255, 255, 255, 0.7);
+				color: rgba(255, 255, 255, 1);
 			}
 
 			#wrapper > .invert blockquote {
