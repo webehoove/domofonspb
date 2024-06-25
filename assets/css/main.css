@@ -218,7 +218,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'WB Sweet Lt', Helvetica, sans-serif;
+		font-family: 'WB Sweet Rg', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
