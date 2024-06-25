@@ -298,9 +298,9 @@ input::-moz-focus-inner {
 		width: 12rem;
 		margin-bottom: 2rem;
 	}
-	
-	#topmenu {
-		font-size: 17px;
+
+	.banner_mobile {
+		display: none;
 	}
 	
 	@media screen and (max-width: 820px) {
@@ -319,10 +319,15 @@ input::-moz-focus-inner {
 		display: none;
 	}
 	
+	.banner_mobile {
+		display: block;
+		margin-bottom: 0.5rem;
+	}
+	
 	}
 	
 	h1 {
-		font-size: 2.65rem;
+		font-size: 2.5rem;
 		line-height: 1;
 	}
 	
@@ -412,8 +417,8 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(8, 8, 15, 0.9);
-			margin: 0 0 1.5rem 0;
+			border-bottom: 1px solid rgba(14, 43, 61, 0.15);
+			margin: 2.5rem 0 1.5rem 0;
 		}
 
 	.align-left {
@@ -446,7 +451,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		h1 {
-			font-size: 2rem;
+			font-size: 2.35rem;
 		}
 	
 	    h1.special {
@@ -466,12 +471,24 @@ input::-moz-focus-inner {
 		}
 
 	}
+	
+	
+	@media screen and (max-width: 1080px) {
+
+		h1.special {
+		    font-size: 2.5rem;
+	    }
+		
+		#topmenu {
+			display: none;
+	    }
+	}
 
 
 	@media screen and (max-width: 1024px) {
 
 		h1 {
-			font-size: 2rem;
+			font-size: 2.15rem;
 		}
 	
 	    h1.special {
@@ -489,10 +506,6 @@ input::-moz-focus-inner {
 		hr.major {
 			margin: 4rem 0;
 		}
-		
-		#topmenu {
-			display: none;
-	}
 
 	}
 	
@@ -526,11 +539,7 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 820px) {
 
-		h1 {
-			font-size: 2rem;
-		}
-	
-	    h1.special {
+		h1.special {
 		    font-size: 2rem;
 	    }
 
@@ -564,7 +573,7 @@ input::-moz-focus-inner {
 		}
 
 		h1 {
-			font-size: 1.35rem;
+			font-size: 1.5rem;
 			line-height: 1;
 		}
 
@@ -588,11 +597,15 @@ input::-moz-focus-inner {
 		hr.major {
 			margin: 0;
 		}
+		
+		hr.lineer {
+			margin: 1rem 0;
+		}
 
 	}
 
-	input, select, textarea {
-		color: rgba(14, 43, 61, 1);
+	p {
+		color: rgba(14, 43, 61, 0.8);
 	}
 
 	a {
@@ -2615,7 +2628,7 @@ input::-moz-focus-inner {
 		border-radius: 0.65rem;
 	}
 	
-	            .box.banner h1, p {
+	            .box.banner h1 {
 					width: 45%;
 				}
 	
@@ -2624,11 +2637,12 @@ input::-moz-focus-inner {
 				.box.banner {
 					background-image: none;
 					padding: 1rem 0.65rem;
+					margin: 0;
 		            width: 100%;
 		            border-radius: 0.65rem;
 				}
 				
-				.box.banner h1, p {
+				.box.banner h1 {
 					width: 100%;
 				}
 				
@@ -3731,7 +3745,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1080px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.65rem 0.65rem 4rem 0.65rem ;
+			padding: 0.65rem ;
 		}
 
 	}
@@ -3739,7 +3753,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.5rem 0.5rem 5rem 0.5rem ;
+			padding: 0.5rem ;
 		}
 
 	}
