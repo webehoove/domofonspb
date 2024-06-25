@@ -78,7 +78,7 @@
 	position: absolute;
 	top: 0;
 	width: 40%;
-	border-bottom: 2px solid #031f30;
+	border-bottom: 2px solid rgba(14, 43, 61, 1);
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 	display: none;
 }
