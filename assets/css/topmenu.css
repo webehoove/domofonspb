@@ -143,6 +143,7 @@
     border-color: #fff;
 }
 .wrapper_menu ul{
+	color: rgba(255, 255, 255, 1);
   position:relative;
   left: 0.5rem;
   top: 0;
@@ -170,7 +171,7 @@
   transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .wrapper_menu ul li a:after{
-  color: #D1D1D5;
+  color: rgba(255, 255, 255, 1);
   position: relative;
   z-index: -1;
   transition: transform 0.3s ease;
@@ -179,10 +180,10 @@
   transform: scaleY(1);
 }
 .wrapper_menu ul li a:hover{
-  color: #D1D1D5;
+  color: rgba(255, 255, 255, 1);
 }
 .wrapper_menu ul li a:link:active, a:visited:active {
-  color: #D1D1D5;
+  color: rgba(255, 255, 255, 1);
 }
 input[type="checkbox"]{
   display: none;
@@ -201,7 +202,8 @@ input[type="checkbox"]{
   font-size: 40px;
 }
 .content_menu p{
-  font-size: 35px;
+	color: rgba(255, 255, 255, 1);
+  font-size: 15px;
 }
 
 #active:checked ~ .wrapper_menu ul li a{
