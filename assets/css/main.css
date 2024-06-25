@@ -362,7 +362,7 @@ input::-moz-focus-inner {
 	}
 	
 	h1.major {
-		font-size: 10rem;
+		font-size: 4.55rem;
 	}
 
 	h2 {
@@ -484,6 +484,10 @@ input::-moz-focus-inner {
 		    font-size: 2.75rem;
 	    }
 	
+	    h1.major {
+		    font-size: 4rem;
+	    }
+	
 	    h2 {
 		    font-size: 1.5rem;
 	    }
@@ -540,6 +544,11 @@ input::-moz-focus-inner {
 		h1 {
 			font-size: 2rem;
 		}
+		
+		h1.major {
+			font-size: 3.5rem;
+		}
+		
 		h3 {
 			font-size: 1.25rem;
 		}
@@ -606,6 +615,10 @@ input::-moz-focus-inner {
 		h1.special {
 			font-size: 1.75rem;
 			line-height: 0.95;
+		}
+
+		h1.major {
+			font-size: 3rem;
 		}
 
 		h2 {
