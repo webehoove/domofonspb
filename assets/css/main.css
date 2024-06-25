@@ -307,9 +307,9 @@ input::-moz-focus-inner {
 		
 		.logotype img {
 			position: relative;
-		        width: 9rem;
+		    width: 9rem;
 			top: 0.2rem;
-		        margin-bottom: 0.65rem;
+		    margin-bottom: 0.65rem;
 	    }
 	}
 	
@@ -592,7 +592,7 @@ input::-moz-focus-inner {
 	}
 
 	input, select, textarea {
-		color: rgba(3, 31, 48, 1);
+		color: rgba(14, 43, 61, 1);
 	}
 
 	a {
@@ -616,6 +616,10 @@ input::-moz-focus-inner {
 	code {
 		background: rgba(0, 0, 0, 0.05);
 		border-color: rgba(0, 0, 0, 0.2);
+	}
+
+	.color_02 {
+		color: #3592d7;
 	}
 	
 /* Row */
