@@ -214,7 +214,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(3, 31, 48, 1);
+		color: rgba(14, 43, 61, 1);
 	}
 
 	body, input, select, textarea {
@@ -598,15 +598,15 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(3, 31, 48, 1);
+		color: rgba(14, 43, 61, 1);
 	}
 
 		a:hover {
-			color:rgba(3, 31, 48, 0.6);
+			color:rgba(14, 43, 61, 0.6);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(3, 31, 48, 1);
+			color: rgba(14, 43, 61, 1);
 		}
 
 	blockquote {
@@ -2621,7 +2621,7 @@ input::-moz-focus-inner {
 					background-image: none;
 					padding: 1rem 0.65rem;
 		            width: 100%;
-		            border-radius: 0.35rem;
+		            border-radius: 0.65rem;
 				}
 				
 				.box.banner h1, p {
@@ -2778,7 +2778,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(3, 31, 48, 1);
+			background-color: rgba(14, 43, 61, 1);
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2788,7 +2788,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(3, 31, 48, 0.8);
+				background-color: rgba(14, 43, 61, 0.78);
 			}
 
 			input[type="submit"].primary:active,
@@ -2796,7 +2796,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(3, 31, 48, 1);
+				background-color: rgba(14, 43, 61, 1);
 			}
 			
 			@media screen and (max-width: 736px) {
