@@ -326,11 +326,11 @@ input::-moz-focus-inner {
 	    }
 		
 		.sm_icons a:hover {
-			opacity: 0.8;
+			opacity: 0.7;
 	    }
 		
 		.sm_icons a:visited .sm_icons a:active{
-			opacity: 0.8;
+			opacity: 0.7;
 	    }
 	
 	@media screen and (max-width: 820px) {
