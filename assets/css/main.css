@@ -298,7 +298,7 @@ input::-moz-focus-inner {
 			font-feature-settings: 'ss16';
 		}
 
-	.logotype img {
+	.logotype {
 		border-radius: 0;
 		width: 11rem;
 		margin-bottom: 2rem;
