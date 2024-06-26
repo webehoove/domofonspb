@@ -323,7 +323,7 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 820px) {
 		
-		.logotype img {
+		.logotype {
 			position: relative;
 		    width: 9rem;
 			top: 0.2rem;
