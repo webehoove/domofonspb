@@ -5018,7 +5018,7 @@ input::-moz-focus-inner {
 				color: #ffffff;
 			}
 
-			#wrapper > .invert h3 {
+			#wrapper > .invert h3, #wrapper > .invert p {
 				color: rgba(255, 255, 255, 0.65);
 			}
 
@@ -5048,7 +5048,7 @@ input::-moz-focus-inner {
 			#wrapper > .invert input[type="button"],
 			#wrapper > .invert button,
 			#wrapper > .invert .button {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: rgba(110, 114, 179, 1);
 				box-shadow: none;
 				color: #ffffff !important;
 			}
@@ -5078,9 +5078,9 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: rgba(255, 255, 255, 0.7);
+					background-color: rgba(110, 114, 179, 1);
 					box-shadow: none;
-					color: #08080f !important;
+					color: #fff !important;
 				}
 
 					#wrapper > .invert input[type="submit"].primary:hover,
@@ -5088,9 +5088,9 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: rgba(255, 255, 255, 1);
+						background-color: rgba(110, 114, 179, 0.8);
 					    box-shadow: none;
-					    color: #08080f !important;
+					    color: #fff !important;
 					}
 
 					#wrapper > .invert input[type="submit"].primary:active,
@@ -5098,9 +5098,9 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: rgba(255, 255, 255, 1);
+						background-color: rgba(110, 114, 179, 0.8);
 					    box-shadow: none;
-					    color: #08080f !important;
+					    color: #fff !important;
 					}
 
 			#wrapper > .invert label {
