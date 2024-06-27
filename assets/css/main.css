@@ -2948,6 +2948,23 @@ input::-moz-focus-inner {
 		        }
 				
 			}
+
+		button.primary_light,
+		.button.primary_light {
+			background-color: rgba(110, 114, 179, 1);
+			box-shadow: none;
+			color: #ffffff !important;
+		}
+
+			button.primary_light:hover,
+			.button.primary_light:hover {
+				background-color: rgba(110, 114, 179, 0.8);
+			}
+
+			button.primary_light:active,
+			.button.primary_light:active {
+				background-color: rgba(110, 114, 179, 0.8);
+			}
 		
 /* Image */
 
