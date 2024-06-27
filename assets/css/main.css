@@ -5314,7 +5314,7 @@ input::-moz-focus-inner {
 		}
 		
 		#wrapper > .color02 {
-			background-color: rgba(32, 33, 52, 0.1);
+			background-color: rgba(32, 33, 52, 0.05);
 		}
 
 		#wrapper.divided > * {
