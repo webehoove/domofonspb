@@ -401,7 +401,7 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.85rem;
+		font-size: 0.8rem;
 		line-height: 1.1;
 	}
 	
@@ -640,6 +640,10 @@ input::-moz-focus-inner {
 			line-height: 0.95;
 		}
 
+		h1.special {
+			font-size: 1.65rem;
+		}
+
 		h1.major {
 			font-size: 3rem;
 		}
@@ -652,8 +656,13 @@ input::-moz-focus-inner {
 			font-size: 1.15rem;
 		}
 
+		h4 {
+			font-size: 1.25rem;
+			line-height: 0.5;
+		}
+
 		h5 {
-			font-size: 0.75rem;
+			font-size: 0.65rem;
 		}
 		
 		hr {
@@ -703,8 +712,16 @@ input::-moz-focus-inner {
 		border-color: rgba(0, 0, 0, 0.2);
 	}
 
+	.color_01 {
+		color: rgba(255, 255, 255, 0.9);
+	}
+
 	.color_02 {
 		color: rgba(110, 114, 179, 1);
+	}
+
+	.color_03 {
+		color: rgba(32, 33, 52, 0.5);
 	}
 	
 /* Row */
@@ -2687,17 +2704,25 @@ input::-moz-focus-inner {
 			}
 			
 	.box.banner {
-		position: relative;
-		background-color: rgba(152, 172, 218, 0.5);
-		background-image: url(../../images/df_banner_m.jpg);
 		background-repeat: no-repeat;
 		background-position: right center;
 		background-size: 50%;
 		background-clip: border-box;
+		position: relative;
 		padding: 1.65rem 1rem;
 		width: 100%;
 		border: none;
 		border-radius: 0.65rem;
+	}
+	
+	.box.banner.b_01 {
+		background-color: rgba(152, 172, 218, 0.5);
+		background-image: url(../../images/df_banner_m.jpg);
+	}
+	
+	.box.banner.b_02 {
+		background-color: rgba(32, 33, 52, 1);
+		background-image: url(../../images/df_banner_contacts_m.jpg);
 	}
 	
 	            .box.banner h1 {
@@ -2716,6 +2741,10 @@ input::-moz-focus-inner {
 				
 				.box.banner h1 {
 					width: 100%;
+				}
+				
+				.box.banner.b_01, .box.banner.b_02 {
+					background-image: none;
 				}
 				
 			}
