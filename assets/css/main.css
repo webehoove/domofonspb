@@ -2688,7 +2688,7 @@ input::-moz-focus-inner {
 			
 	.box.banner {
 		position: relative;
-		background-color: rgba(152, 172, 218, 0.6);
+		background-color: rgba(152, 172, 218, 0.5);
 		background-image: url(../../images/df_banner_m.jpg);
 		background-repeat: no-repeat;
 		background-position: right center;
