@@ -2943,6 +2943,10 @@ input::-moz-focus-inner {
 		.image video {
 			display: block;
 		}
+		
+		.image.image_mob img {
+			display: none;
+		}
 
 		.image.left, .image.right {
 			width: 40%;
@@ -2993,6 +2997,14 @@ input::-moz-focus-inner {
 				
 				.rounded img {
 					border-radius: 0.65rem;
+		        }
+		
+		        .image.image_mob img {
+		            display: block;
+		        }
+		
+		        .image.image_desk img {
+		            display: none;
 		        }
 				
 			}
