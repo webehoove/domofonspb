@@ -256,11 +256,9 @@ input::-moz-focus-inner {
 
 	p {
 		margin: 0;
-		line-height: 1.2;
 	}
 		
 	h1, h2, h3, h4, h5, h6 {
-		line-height: 1.2;
 		margin: 0;
 	}
 
@@ -382,6 +380,7 @@ input::-moz-focus-inner {
 	
 	h1.major {
 		font-size: 4.55rem;
+		line-height: 0.9;
 	}
 
 	h2 {
@@ -631,12 +630,12 @@ input::-moz-focus-inner {
 		}
 
 		h1 {
-			font-size: 1.75rem;
+			font-size: 1.7rem;
 			line-height: 1;
 		}
 
 		h1.special {
-			font-size: 1.8rem;
+			font-size: 1.7rem;
 			line-height: 0.95;
 		}
 
@@ -2944,7 +2943,7 @@ input::-moz-focus-inner {
 	            input[type="button"],
 	            button,
 	            .button {
-					line-height: 1.9;
+					line-height: 1.8;
 		        }
 				
 			}
