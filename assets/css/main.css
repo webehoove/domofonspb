@@ -353,7 +353,7 @@ input::-moz-focus-inner {
 	}
 	
 	.logosymbol_text {
-		font-size: 15px;
+		font-size: 1rem;
 		margin-top: 1rem;
 	}
 	
@@ -401,6 +401,11 @@ input::-moz-focus-inner {
 
 	h5 {
 		font-size: 0.8rem;
+		line-height: 1.1;
+	}
+
+	h6 {
+		font-size: 1rem;
 		line-height: 1.1;
 	}
 	
@@ -2679,7 +2684,7 @@ input::-moz-focus-inner {
 	.box {
 		position: relative;
 		background-color: transparent;
-		padding: 2rem 1rem 2rem 1rem;
+		padding: 1rem 1rem 2rem 1rem;
 		width: 100%;
 		border: none;
 		border-radius: 0.65rem;
@@ -2700,7 +2705,7 @@ input::-moz-focus-inner {
 		background-size: 50%;
 		background-clip: border-box;
 		position: relative;
-		padding: 1.65rem 1rem;
+		padding: 1.2rem 1rem 1.65rem 1rem;
 		width: 100%;
 		border: none;
 		border-radius: 0.65rem;
