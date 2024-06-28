@@ -2690,7 +2690,6 @@ input::-moz-focus-inner {
 				.box {
 					padding: 2rem 1rem 2rem 1rem;
 		            width: 100%;
-		            border-radius: 1rem;
 				}
 				
 			}
@@ -2728,7 +2727,6 @@ input::-moz-focus-inner {
 					padding: 1rem 0.65rem;
 					margin: 0;
 		            width: 100%;
-		            border-radius: 0.5rem;
 				}
 				
 				.box.banner h1 {
@@ -2970,7 +2968,7 @@ input::-moz-focus-inner {
 	}
 
 		.image img {
-			border-radius: 0.5rem;
+			border-radius: 0.65rem;
 			display: block;
 		}
 		
@@ -3033,11 +3031,7 @@ input::-moz-focus-inner {
 			
 			@media screen and (max-width: 736px) {
 				
-				.rounded img {
-					border-radius: 0.65rem;
-		        }
-		
-		        .image.image_mob img {
+				.image.image_mob img {
 		            display: block;
 		        }
 		
@@ -3898,7 +3892,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.65rem 0.5rem 0.5rem 0.5rem ;
+			padding: 0.65rem ;
 		}
 
 	}
