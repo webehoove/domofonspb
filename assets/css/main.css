@@ -2141,15 +2141,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.65rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.65rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.65rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2386,15 +2386,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.65rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.65rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.65rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2631,19 +2631,19 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.65rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0.65rem 0 0 0.65rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.65rem;
 					}
 
 						.row.gtr-uniform > * {
-							padding-top: 0.5rem;
+							padding-top: 0.65rem;
 						}
 
 				.row.gtr-150 {
@@ -2708,14 +2708,14 @@ input::-moz-focus-inner {
 		background-size: 50%;
 		background-clip: border-box;
 		position: relative;
-		padding: 1.0.5rem 1rem 1.65rem 1rem;
+		padding: 1.05rem 1rem 1.65rem 1rem;
 		width: 100%;
 		border: none;
 		border-radius: 0.65rem;
 	}
 	
 	.box.banner.b_01 {
-		background-color: rgba(152, 172, 218, 0.5);
+		background-color: rgba(152, 172, 218, 0.4);
 		background-image: url(../../images/df_banner_m.jpg);
 	}
 	
