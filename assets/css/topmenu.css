@@ -22,7 +22,7 @@
   outline: none !important;
   position: absolute;
   z-index: 2;
-  right: 0;
+  right: 0.15rem;
   /*left: 20px; */
   top: 19px;
   height: 40px;
@@ -65,7 +65,7 @@
     content: "";
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0.15rem;
 	width: 40%;
 	border-bottom: 2px solid #ffffff;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
