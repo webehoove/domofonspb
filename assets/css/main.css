@@ -385,12 +385,12 @@ input::-moz-focus-inner {
 
 	h2 {
 		font-size: 1.75rem;
-		line-height: 1.1;
+		line-height: 1;
 	}
 
 	h3 {
 		font-size: 1.15rem;
-		line-height: 1.25;
+		line-height: 1.2;
 	}
 
 	h4 {
@@ -577,7 +577,6 @@ input::-moz-focus-inner {
 
 		h5 {
 			font-size: 0.65rem;
-			line-height: 1;
 		}
 		
 		hr {
@@ -631,12 +630,10 @@ input::-moz-focus-inner {
 
 		h1 {
 			font-size: 1.7rem;
-			line-height: 1;
 		}
 
 		h1.special {
 			font-size: 1.7rem;
-			line-height: 0.95;
 		}
 
 		h1.major {
@@ -645,6 +642,7 @@ input::-moz-focus-inner {
 
 		h2 {
 			font-size: 1.5rem;
+			line-height: 1;
 		}
 
 		h3 {
@@ -653,7 +651,6 @@ input::-moz-focus-inner {
 
 		h4 {
 			font-size: 1.05rem;
-			line-height: 0.5;
 		}
 
 		h5 {
