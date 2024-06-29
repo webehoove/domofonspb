@@ -3893,7 +3893,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0.5rem ;
+			padding: 1rem 0.5rem 0.5rem 0.5rem ;
 		}
 
 	}
@@ -5322,7 +5322,7 @@ input::-moz-focus-inner {
 		}
 		
 		#wrapper > .color02 {
-			background-color: rgba(32, 33, 52, 0.05);
+			background-color: rgba(32, 33, 52, 0.06);
 		}
 
 		#wrapper.divided > * {
