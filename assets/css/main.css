@@ -2711,7 +2711,7 @@ input::-moz-focus-inner {
 		background-size: 50%;
 		background-clip: border-box;
 		position: relative;
-		padding: 1.05rem 1rem 1.65rem 1rem;
+		padding: 1.05rem 1rem 1.25rem 1rem;
 		width: 100%;
 		border: none;
 		border-radius: 0.65rem;
@@ -3893,7 +3893,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		.wrapper.style1 > .inner {
-			padding: 1rem 0.5rem 0.5rem 0.5rem ;
+			padding: 0.5rem 0.5rem 0.5rem 0.5rem ;
 		}
 
 	}
