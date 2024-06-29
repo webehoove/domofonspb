@@ -302,13 +302,16 @@ input::-moz-focus-inner {
 		margin-bottom: 2rem;
 	}
 	
-	.logosymbol_text {
-		margin-top: 2.8rem;
+	.logoname img {
+		width: 8rem;
 	}
 	
 	.logosymbol img {
 		width: 6rem;
-		margin-bottom: 0;
+	}
+	
+	.logosymbol_text {
+		margin-top: 2.8rem;
 	}
 
     .banner_mobile {
