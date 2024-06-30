@@ -85,6 +85,15 @@
            font-display: swap;
            font-style: normal;
         }
+		
+@font-face {
+           font-family: 'DF Sans Rg';
+           src: url(../webfonts/dfh/subset-TTHoves-Regular.woff) format('woff');
+		   src: url(../webfonts/dfh/subset-TTHoves-Regular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+
 
 
 html, body, div, span, applet, object,
@@ -250,7 +259,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
+		font-family: 'DF Sans Rg', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
@@ -374,9 +383,8 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special {
-		font-size: 3.75rem;
-		line-height: 0.9;
-		letter-spacing: -0.02rem;
+		font-size: 3.25rem;
+		line-height: 1;
 	}
 	
 	h1.major {
@@ -5345,11 +5353,11 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: rgba(27, 27, 39, 0.05);
+			background-color: rgba(227, 225, 224, 0.5);
 		}
 		
 		#wrapper > .color02 {
-			background-color: rgba(27,27,39,0.1);
+			background-color: rgba(227, 225, 224, 1);
 		}
 
 		#wrapper.divided > * {
