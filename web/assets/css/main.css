@@ -88,9 +88,23 @@
 		
 @font-face {
            font-family: 'DF Sans Rg';
-           src: url(../webfonts/dfh/subset-TTHoves-Regular.woff) format('woff');
-		   src: url(../webfonts/dfh/subset-TTHoves-Regular.woff2) format('woff2');
-           font-display: swap;
+           src: url(../webfonts/dfh/DFSans-Regular.eot);
+		   src: url(../webfonts/dfh/DFSans-Regular.eot?#iefix) format("embedded-opentype"), 
+		   src: url(../webfonts/dfh/DFSans-Regular.woff) format('woff');
+		   src: url(../webfonts/dfh/DFSans-Regular.woff2) format('woff2');
+		   src: url(../webfonts/dfh/DFSans-Regular.ttf) format('truetype');
+           font-weight: normal;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: 'DF Sans Md';
+           src: url(../webfonts/dfh/DFSans-Medium.eot);
+		   src: url(../webfonts/dfh/DFSans-Medium.eot?#iefix) format("embedded-opentype"), 
+		   src: url(../webfonts/dfh/DFSans-Medium.woff) format('woff');
+		   src: url(../webfonts/dfh/DFSans-Medium.woff2) format('woff2');
+		   src: url(../webfonts/dfh/DFSans-Medium.ttf) format('truetype');
+           font-weight: normal;
            font-style: normal;
         }
 
@@ -255,7 +269,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(27, 27, 39, 1);
+		color: rgba(11, 11, 11, 1);
 	}
 
 	body, input, select, textarea {
@@ -285,7 +299,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
+		 font-family: 'DF Sans Md', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
@@ -320,10 +334,11 @@ input::-moz-focus-inner {
 		}
 		
 		.medium_t {
-			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
-		    -webkit-font-smoothing: antialiased;
+			font-family: 'DF Sans Md', Helvetica, sans-serif;
+	    	-webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
-		    font-weight: normal;
+	    	font-weight: normal;
+		
 		}
 		
 		.bold_t {
@@ -332,8 +347,10 @@ input::-moz-focus-inner {
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
-
-	
+		
+		.letter_d {
+            font-feature-settings: 'ss14' 1;
+        }
 		
 	#topmenu {
 		font-size: 0.85rem;
@@ -383,7 +400,7 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special {
-		font-size: 3.25rem;
+		font-size: 3rem;
 		line-height: 1;
 	}
 	
@@ -409,7 +426,7 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.8rem;
+		font-size: 0.7rem;
 		line-height: 1.1;
 	}
 
@@ -748,7 +765,7 @@ input::-moz-focus-inner {
 	}
 
 	.color_t_01 {
-		color: rgba(27, 27, 39, 0.5);
+		opacity: 0.5;
 	}
 
 	.color_t_02 {
