@@ -759,6 +759,11 @@ input::-moz-focus-inner {
 	    	width: 4rem;
 		    margin-bottom: 0;
 	    }
+	
+	    .logosymbol_menu img {
+	    	width: 1.8rem;
+		    margin: 0.1rem 0 0 0;
+	    }
 
 	}
 
@@ -5395,17 +5400,17 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: rgba(227, 225, 224, 0.5);
+			background-color: rgba(227, 225, 224, 0.7);
 		}
 		
 		#wrapper > .color02 {
-			background: rgba(227, 225, 224, 0.5);
-            background: linear-gradient(0deg, rgba(227, 225, 224, 0.5) 0%, rgba(255, 255, 255, 1) 100%);
+			background: rgba(227, 225, 224, 0.7);
+            background: linear-gradient(0deg, rgba(227, 225, 224, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
 		}
 		
 		#wrapper > .color03 {
-			background: rgba(227, 225, 224, 0.5);
-            background: linear-gradient(180deg, rgba(227, 225, 224, 0.5) 0%, rgba(255, 255, 255, 1) 100%);
+			background: rgba(227, 225, 224, 0.7);
+            background: linear-gradient(180deg, rgba(227, 225, 224, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
 		}
 
 		#wrapper.divided > * {
