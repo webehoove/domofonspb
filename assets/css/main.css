@@ -706,7 +706,7 @@ input::-moz-focus-inner {
 		}
 
 		h4 {
-			font-size: 1.25rem;
+			font-size: 0.75rem;
 		}
 
 		h5 {
@@ -5389,17 +5389,17 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: rgba(227, 225, 224, 1);
+			background-color: rgba(176, 159, 226, 0.3);
 		}
 		
 		#wrapper > .color02 {
-			background: rgba(227, 225, 224, 1);
-            background: linear-gradient(0deg, rgba(227, 225, 224, 1) 0%, rgba(255, 255, 255, 1) 100%);
+			background: rgba(176, 159, 226, 1);
+            background: linear-gradient(0deg, rgba(176, 159, 226, 0.3) 0%, rgba(255, 255, 255, 1) 100%);
 		}
 		
 		#wrapper > .color03 {
 			background: rgba(227, 225, 224, 1);
-            background: linear-gradient(180deg, rgba(227, 225, 224, 1) 0%, rgba(255, 255, 255, 1) 100%);
+            background: linear-gradient(180deg, rgba(176, 159, 226, 0.3) 0%, rgba(255, 255, 255, 1) 100%);
 		}
 
 		#wrapper.divided > * {
