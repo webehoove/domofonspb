@@ -54,6 +54,61 @@
 	    url(../webfonts/wbh/sweetext-dmbdit-webfont.woff) format('woff');
 }
 
+@font-face {
+           font-family: 'ELTA Sans Light';
+           src: url(../webfonts/df/ELTASans-Light.woff) format('woff');
+		   src: url(../webfonts/df/ELTASans-Light.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: 'ELTA Sans Regular';
+           src: url(../webfonts/df/ELTASans-Regular.woff) format('woff');
+		   src: url(../webfonts/df/ELTASans-Regular.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: 'ELTA Sans Medium';
+           src: url(../webfonts/df/ELTASans-Medium.woff) format('woff');
+		   src: url(../webfonts/df/ELTASans-Medium.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: 'ELTA Sans Bold';
+           src: url(../webfonts/df/ELTASans-Bold.woff) format('woff');
+		   src: url(../webfonts/df/ELTASans-Bold.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: 'DF Sans Rg';
+           src: url(../webfonts/dfh/DFSans-Regular.eot);
+		   src: url(../webfonts/dfh/DFSans-Regular.eot?#iefix) format("embedded-opentype"), 
+		   src: url(../webfonts/dfh/DFSans-Regular.woff) format('woff');
+		   src: url(../webfonts/dfh/DFSans-Regular.woff2) format('woff2');
+		   src: url(../webfonts/dfh/DFSans-Regular.ttf) format('truetype');
+           font-weight: normal;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: 'DF Sans Md';
+           src: url(../webfonts/dfh/DFSans-Medium.eot);
+		   src: url(../webfonts/dfh/DFSans-Medium.eot?#iefix) format("embedded-opentype"), 
+		   src: url(../webfonts/dfh/DFSans-Medium.woff) format('woff');
+		   src: url(../webfonts/dfh/DFSans-Medium.woff2) format('woff2');
+		   src: url(../webfonts/dfh/DFSans-Medium.ttf) format('truetype');
+           font-weight: normal;
+           font-style: normal;
+        }
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -153,13 +208,13 @@ input::-moz-focus-inner {
 /* Type */
 
 	html {
-		font-size: 17px;
+		font-size: 18px;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 17px;
+				font-size: 18px;
 			}
 
 		}
@@ -167,15 +222,15 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 15px;
+				font-size: 16px;
 			}
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1080px) {
 
 			html {
-				font-size: 15px;
+				font-size: 16px;
 			}
 
 		}
@@ -183,7 +238,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 980px) {
 
 			html {
-				font-size: 15px;
+				font-size: 16px;
 			}
 
 		}
@@ -191,7 +246,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 820px) {
 
 			html {
-				font-size: 15px;
+				font-size: 18px;
 			}
 
 		}
@@ -199,7 +254,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 16px;
+				font-size: 18px;
 			}
 
 		}
@@ -207,23 +262,23 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 16px;
+				font-size: 18px;
 			}
 
 		}
 
 	body {
 		background-color: #ffffff;
-		color: rgba(32, 33, 52, 1);
+		color: rgba(10, 10, 10, 1);
 	}
 
 	body, input, select, textarea {
-		font-family: 'WB Sweet Lt', Helvetica, sans-serif;
+		font-family: 'DF Sans Rg', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
 		font-size: 1rem;
-		letter-spacing: -0.005rem;
+		letter-spacing: 0;
 		line-height: 1.2;
 	}
 
@@ -244,7 +299,7 @@ input::-moz-focus-inner {
 		}
 		
 	strong, b {
-		 font-family: 'WB Sweet Md', Helvetica, sans-serif;
+		 font-family: 'DF Sans Md', Helvetica, sans-serif;
 		-webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
 		font-weight: normal;
@@ -256,6 +311,7 @@ input::-moz-focus-inner {
 
 	p {
 		margin: 0;
+		line-height: 1.1;
 	}
 		
 	h1, h2, h3, h4, h5, h6 {
@@ -271,39 +327,44 @@ input::-moz-focus-inner {
 			text-transform: uppercase;
 		}
 		
-		.regular_t {
-			font-family: 'WB Sweet Rg', Helvetica, sans-serif;
+		.light_t {
+			font-family: 'ELTA Sans Light', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
 		.medium_t {
-			font-family: 'WB Sweet Md', Helvetica, sans-serif;
-		    -webkit-font-smoothing: antialiased;
+			font-family: 'DF Sans Md', Helvetica, sans-serif;
+	    	-webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
-		    font-weight: normal;
+	    	font-weight: normal;
+		
 		}
 		
-		.demibold_t {
-			font-family: 'WB Sweet DmBd', Helvetica, sans-serif;
+		.bold_t {
+			font-family: 'WB Sweet Bold', Helvetica, sans-serif;
 		    -webkit-font-smoothing: antialiased;
 	        -moz-osx-font-smoothing: grayscale;
 		    font-weight: normal;
 		}
 		
 		.letter_d {
-			font-feature-settings: 'ss16';
-		}
-
+            font-feature-settings: 'ss14' 1;
+        }
+		
+	#topmenu {
+		font-size: 0.85rem;
+	}
+		
 	.logotype {
 		border-radius: 0;
-		width: 11rem;
-		margin-bottom: 2rem;
+		width: 10rem;
+		margin-top: 0.2rem;
 	}
 	
 	.logoname img {
-		width: 8rem;
+		width: 7rem;
 	}
 	
 	.logosymbol img {
@@ -323,7 +384,7 @@ input::-moz-focus-inner {
 	}
 
         .sm_icons a {
-			opacity: 0.62;
+			opacity: 0.4;
 	    }
 		
 		.sm_icons a:hover {
@@ -333,42 +394,7 @@ input::-moz-focus-inner {
 		.sm_icons a:visited .sm_icons a:active{
 			opacity: 0.7;
 	    }
-	
-	@media screen and (max-width: 820px) {
 		
-		.logotype {
-			position: relative;
-		    width: 11rem;
-			top: 0.2rem;
-		    margin-bottom: 0.65rem;
-	    }
-	}
-	
-	@media screen and (max-width: 736px) {
-	
-	.hideit {
-		display: none;
-	}
-	
-	.banner_mobile {
-		display: block;
-		margin-bottom: 0.5rem;
-	}
-	
-	.logosymbol_text {
-		margin-top: 1.25rem;
-	}
-	
-	.logosymbol img {
-		width: 5rem;
-		margin-bottom: 0;
-	}
-
-    .sm_icons {
-		float: left;
-	}
-	
-	}
 	
 	h1 {
 		font-size: 2.5rem;
@@ -376,8 +402,8 @@ input::-moz-focus-inner {
 	}
 	
 	h1.special {
-		font-size: 3.75rem;
-		line-height: 0.9;
+		font-size: 3rem;
+		line-height: 1.03;
 	}
 	
 	h1.major {
@@ -386,8 +412,8 @@ input::-moz-focus-inner {
 	}
 
 	h2 {
-		font-size: 1.75rem;
-		line-height: 1;
+		font-size: 1.5rem;
+		line-height: 1.03;
 	}
 
 	h3 {
@@ -402,12 +428,12 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		line-height: 1.1;
 	}
 
 	h6 {
-		font-size: 1rem;
+		font-size: 0.65rem;
 		line-height: 1.1;
 	}
 	
@@ -454,7 +480,7 @@ input::-moz-focus-inner {
 
 	hr {
 		border: 0;
-		margin: 3rem 0;
+		margin: 4rem 0;
 	}
 
 		hr.minor {
@@ -468,7 +494,7 @@ input::-moz-focus-inner {
 		}
 		
 		hr.lineer {
-			border-bottom: 1px solid rgba(32, 33, 52, 0.15);
+			border-bottom: 1px solid rgba(10, 10, 10, 0.1);
 			margin: 2.5rem 0 1.5rem 0;
 		}
 		
@@ -491,7 +517,11 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 		
 		h1.special {
-		    font-size: 3.25rem;
+		    font-size: 2.8rem;
+	    }
+		
+		h1 {
+		    font-size: 2.35rem;
 	    }
 	}
 	
@@ -500,17 +530,21 @@ input::-moz-focus-inner {
 		h1.special {
 		    font-size: 2.75rem;
 	    }
+		
+		h2 {
+		    font-size: 1.4rem;
+	    }
 	}
 
 
 	@media screen and (max-width: 1280px) {
 
 		h1 {
-			font-size: 2.35rem;
+			font-size: 2.15rem;
 		}
 	
 	    h1.special {
-		    font-size: 2.75rem;
+		    font-size: 2.5rem;
 	    }
 	
 	    h1.major {
@@ -518,11 +552,7 @@ input::-moz-focus-inner {
 	    }
 	
 	    h2 {
-		    font-size: 1.5rem;
-	    }
-	
-	    h5 {
-		    font-size: 0.75rem;
+		    font-size: 1.35rem;
 	    }
 		
 		hr {
@@ -539,7 +569,15 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1080px) {
 
 		h1.special {
-		    font-size: 2.5rem;
+		    font-size: 2.25rem;
+	    }
+		
+		h1 {
+		    font-size: 2rem;
+	    }
+		
+		h2 {
+		    font-size: 1.25rem;
 	    }
 		
 		#topmenu {
@@ -550,12 +588,16 @@ input::-moz-focus-inner {
 
 	@media screen and (max-width: 1024px) {
 
+		h1.special {
+		    font-size: 2.15rem;
+	    }
+		
 		h1 {
-			font-size: 2.15rem;
+			font-size: 1.85rem;
 		}
-	
-	    h1.special {
-		    font-size: 2.25rem;
+		
+		h2 {
+		    font-size: 1.15rem;
 	    }
 		
 		hr {
@@ -571,11 +613,11 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 980px) {
 
 		h1 {
-			font-size: 2rem;
+			font-size: 1.65rem;
 		}
 		
-		h1.major {
-			font-size: 3.5rem;
+		h1.special {
+			font-size: 1.85rem;
 		}
 		
 		h3 {
@@ -602,8 +644,18 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 820px) {
 
+		.logotype {
+			position: relative;
+		    width: 7rem;
+			top: 0.2rem;
+	    }
+		
+		.hideit {
+		    display: none;
+	    }
+		
 		h1.special {
-		    font-size: 2rem;
+		    font-size: 1.5rem;
 	    }
 
 		h2 {
@@ -622,6 +674,18 @@ input::-moz-focus-inner {
 			margin: 3rem 0;
 		}
 
+        .sm_icons {
+	    	float: left;
+	    }
+
+	}
+	
+	@media screen and (max-width: 768px) {
+
+		h1.special {
+		    font-size: 1.35rem;
+	    }
+
 	}
 	
 	@media screen and (max-width: 736px) {
@@ -634,26 +698,21 @@ input::-moz-focus-inner {
 			font-size: 0.8rem;
 			line-height: 1.1;
 		}
+		
+		h1.special {
+		    font-size: 1.45rem;
+	    }
 
 		h1 {
-			font-size: 1.7rem;
-		}
-
-		h1.special {
-			font-size: 1.7rem;
-		}
-
-		h1.major {
-			font-size: 3rem;
+			font-size: 1.2rem;
 		}
 
 		h2 {
-			font-size: 1.65rem;
-			line-height: 1;
+			font-size: 1.35rem;
 		}
 
 		h3 {
-			font-size: 1.1rem;
+			font-size: 1rem;
 		}
 
 		h4 {
@@ -665,7 +724,7 @@ input::-moz-focus-inner {
 		}
 
 		h6 {
-			font-size: 1rem;
+			font-size: 0.55rem;
 		}
 		
 		hr {
@@ -685,6 +744,20 @@ input::-moz-focus-inner {
 			border-bottom: 1px solid rgba(14, 43, 61, 0.15);
 			margin: 0.5rem 0 1.5rem 0;
 		}
+		
+		.banner_mobile {
+		    display: block;
+		    margin-bottom: 0.5rem;
+	    }
+	
+	    .logosymbol_text {
+		    margin-top: 1.25rem;
+	    }
+	
+	    .logosymbol img {
+	    	width: 4rem;
+		    margin-bottom: 0;
+	    }
 
 	}
 
@@ -715,15 +788,15 @@ input::-moz-focus-inner {
 		border-color: rgba(0, 0, 0, 0.2);
 	}
 
-	.color_01 {
-		color: rgba(255, 255, 255, 0.9);
+	.color_t_01 {
+		opacity: 0.5;
 	}
 
-	.color_02 {
+	.color_t_02 {
 		color: rgba(110, 114, 179, 1);
 	}
 
-	.color_03 {
+	.color_t_03 {
 		color: rgba(32, 33, 52, 0.4);
 	}
 	
@@ -2693,7 +2766,7 @@ input::-moz-focus-inner {
 		padding: 1rem 1rem 2rem 1rem;
 		width: 100%;
 		border: none;
-		border-radius: 0.65rem;
+		border-radius: 0.5rem;
 	}
 	
 			@media screen and (max-width: 736px) {
@@ -2707,24 +2780,24 @@ input::-moz-focus-inner {
 			
 	.box.banner {
 		background-repeat: no-repeat;
-		background-position: right center;
+		background-position: right top;
 		background-size: 50%;
 		background-clip: border-box;
 		position: relative;
-		padding: 1.05rem 1rem 1.25rem 1rem;
+		padding: 2rem 1rem 2rem 1rem;
 		width: 100%;
 		border: none;
-		border-radius: 0.65rem;
+		border-radius: 0.25rem;
 	}
 	
 	.box.banner.b_01 {
-		background-color: rgba(152, 172, 218, 0.4);
-		background-image: url(../../images/df_banner_m.jpg);
+		color: rgba(255, 255, 255, 0.9);
+		background-color: rgba(61, 66, 96, 1);
+		background-image: url(../../images/df_banner_home.jpg);
 	}
 	
-	.box.banner.b_02 {
-		background-color: rgba(32, 33, 52, 1);
-		background-image: url(../../images/df_banner_contacts_m.jpg);
+	.box.banner.b_01 h5 {
+		color: rgba(255, 255, 255, 0.6);
 	}
 	
 	            .box.banner h1 {
@@ -2738,7 +2811,6 @@ input::-moz-focus-inner {
 					padding: 0.7rem 0.65rem 1rem 0.65rem;
 					margin: 0;
 		            width: 100%;
-					border-radius: 0.5rem;
 				}
 				
 				.box.banner h1 {
@@ -2754,8 +2826,8 @@ input::-moz-focus-inner {
 	.box.banner_half {
 		padding: 0;
 		position: relative;
-		width: 50%;
-		height: 3rem;
+		width: 100%;
+		height: 3.5rem;
 		bottom: 0;
 	}
 	
@@ -2769,8 +2841,8 @@ input::-moz-focus-inner {
 			
 	.box_text {
 		position: relative;
-		border: 1px solid rgba(32, 33, 52, 0.15);
-		border-radius: 0.65rem;
+		border: 1px solid rgba(10, 10, 10, 0.1);
+		border-radius: 0.3rem;
 		background-color: transparent;
 		padding: 1rem 1rem 2rem 1rem;
 		width: 100%;
@@ -2780,7 +2852,6 @@ input::-moz-focus-inner {
 			@media screen and (max-width: 736px) {
 				
 				.box_text {
-					border-radius: 0.5rem;
 					padding: 0.65rem 0.65rem 1rem 0.65rem;
 					margin-bottom: 0.5rem;
 					height: auto;
@@ -2810,12 +2881,11 @@ input::-moz-focus-inner {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		font-size: 1rem;
-		width: 12rem;
+		font-size: 0.9rem;
 		height: 1.8em;
 		line-height: 1.8;
 		border-radius: 0.9em;
-		padding: 0 0.7em;
+		padding: 0 0.8em;
 		text-overflow: ellipsis;
 		overflow: hidden;
 	}
@@ -2841,12 +2911,9 @@ input::-moz-focus-inner {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.9rem;
+			font-size: 0.8rem;
 			width: auto;
-			height: 1.8em;
-		    line-height: 1.9;
-			border-radius: 0.9em;
-			padding: 0 1em;
+			height: 1.6em;
 		}
 
 		input[type="submit"].large,
@@ -2875,6 +2942,16 @@ input::-moz-focus-inner {
 			min-width: 14em;
 			text-align: left;
 		}
+		
+		   button.wide_01,
+		   .button.wide_01 {
+		     	background-image: url(../../images/arrow_right_w.svg);
+		    	background-repeat: no-repeat;
+			    background-clip: border-box;
+			    background-position:right;
+			    min-width: 14em;
+			    text-align: left;
+		        }
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -2895,7 +2972,7 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(32, 33, 52, 0.2);
+		box-shadow: inset 0 0 0 1px rgba(10, 10, 10, 0.1);
 		color: rgba(32, 33, 52, 1); !important;
 	}
 
@@ -2904,7 +2981,7 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(32, 33, 52, 1);
+			box-shadow: inset 0 0 0 1px rgba(10, 10, 10, 0.5);
 			color: rgba(32, 33, 52, 1); !important;
 		}
 
@@ -2914,8 +2991,8 @@ input::-moz-focus-inner {
 		button:active,
 		.button:active {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 1px rgba(32, 33, 52, 1);
-			color: rgba(32, 33, 52, 1); !important;
+			box-shadow: inset 0 0 0 1px rgba(10, 10, 10, 0.5);
+			color: rgba(10, 10, 10, 1); !important;
 		}
 
 		input[type="submit"].primary,
@@ -2923,9 +3000,9 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(32, 33, 52, 1);
+			background-color: rgba(10, 10, 10, 1);
 			box-shadow: none;
-			color: #ffffff !important;
+			color: rgba(255, 255, 255, 1) !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2933,7 +3010,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(32, 33, 52, 0.78);
+				background-color: rgba(10, 10, 10, 0.8);
 			}
 
 			input[type="submit"].primary:active,
@@ -2941,7 +3018,7 @@ input::-moz-focus-inner {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: rgba(32, 33, 52, 1);
+				background-color: rgba(10, 10, 10, 1);
 			}
 			
 			@media screen and (max-width: 736px) {
@@ -2956,21 +3033,17 @@ input::-moz-focus-inner {
 				
 			}
 
-		button.primary_light,
-		.button.primary_light {
-			background-color: rgba(110, 114, 179, 1);
+		.button.primary_01 {
+			background-color: rgba(176, 159, 226, 1);
 			box-shadow: none;
-			color: #ffffff !important;
 		}
 
-			button.primary_light:hover,
-			.button.primary_light:hover {
-				background-color: rgba(110, 114, 179, 0.8);
+			.button.primary_01:hover {
+				background-color: rgba(176, 159, 226, 0.7);
 			}
 
-			button.primary_light:active,
-			.button.primary_light:active {
-				background-color: rgba(110, 114, 179, 0.8);
+			.button.primary_01:active {
+				background-color: rgba(176, 159, 226, 1);
 			}
 		
 /* Image */
@@ -2981,7 +3054,7 @@ input::-moz-focus-inner {
 	}
 
 		.image img {
-			border-radius: 0.65rem;
+			border-radius: 0.3rem;
 			display: block;
 		}
 		
@@ -3044,10 +3117,6 @@ input::-moz-focus-inner {
 			
 			@media screen and (max-width: 736px) {
 				
-				.image img {
-		           border-radius: 0.5rem;
-		        }
-				
 				.image.image_mob img {
 		            display: block;
 		        }
@@ -3094,9 +3163,10 @@ input::-moz-focus-inner {
 		}
 
 		ul.topmenu {
+			display: inline-block;
 			list-style: none;
 		    padding: 0;
-		    margin: 0;
+		    margin-top: 0.2rem;
 		}
 
 			ul.topmenu li {
@@ -3110,6 +3180,12 @@ input::-moz-focus-inner {
 			
 			ul.topmenu li a:hover {
 				border-bottom: none;
+			}
+			
+			ul.topmenu li img {
+				width: 1.4rem;
+				margin-top: -0.2rem;
+				float: right;
 			}
 
 				ul.topmenu li:first-child {
@@ -5000,7 +5076,7 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: rgba(32, 33, 52, 1);
+			background-color: rgba(10, 10, 10, 1);
 			color: rgba(255, 255, 255, 0.9);
 		}
 
@@ -5318,11 +5394,17 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: rgba(19, 20, 31, 1);
+			background-color: rgba(227, 225, 224, 0.5);
 		}
 		
 		#wrapper > .color02 {
-			background-color: rgba(32, 33, 52, 0.06);
+			background: rgba(227, 225, 224, 0.5);
+            background: linear-gradient(0deg, rgba(227, 225, 224, 0.5) 0%, rgba(255, 255, 255, 1) 100%);
+		}
+		
+		#wrapper > .color03 {
+			background: rgba(227, 225, 224, 0.5);
+            background: linear-gradient(180deg, rgba(227, 225, 224, 0.5) 0%, rgba(255, 255, 255, 1) 100%);
 		}
 
 		#wrapper.divided > * {
