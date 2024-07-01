@@ -5400,17 +5400,17 @@ input::-moz-focus-inner {
 			}
 
 		#wrapper > .color01 {
-			background-color: rgba(227, 225, 224, 0.7);
+			background-color: rgba(227, 225, 224, 1);
 		}
 		
 		#wrapper > .color02 {
-			background: rgba(227, 225, 224, 0.7);
-            background: linear-gradient(0deg, rgba(227, 225, 224, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
+			background: rgba(227, 225, 224, 1);
+            background: linear-gradient(0deg, rgba(227, 225, 224, 1) 0%, rgba(255, 255, 255, 1) 100%);
 		}
 		
 		#wrapper > .color03 {
-			background: rgba(227, 225, 224, 0.7);
-            background: linear-gradient(180deg, rgba(227, 225, 224, 0.7) 0%, rgba(255, 255, 255, 1) 100%);
+			background: rgba(227, 225, 224, 1);
+            background: linear-gradient(180deg, rgba(227, 225, 224, 1) 0%, rgba(255, 255, 255, 1) 100%);
 		}
 
 		#wrapper.divided > * {
