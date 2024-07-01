@@ -489,9 +489,9 @@ input::-moz-focus-inner {
 		    margin: 0.65rem 0;
 		}
 		
-		hr.major {
+		hr.minor_banner {
 			border: 0;
-		    margin: 6rem 0;
+		    margin: 4rem 0;
 		}
 		
 		hr.lineer {
@@ -559,10 +559,6 @@ input::-moz-focus-inner {
 		hr {
 			margin: 3rem 0;
 		}
-		
-		hr.major {
-			margin: 4rem 0;
-		}
 
 	}
 	
@@ -604,10 +600,6 @@ input::-moz-focus-inner {
 		hr {
 			margin: 2rem 0;
 		}
-		
-		hr.major {
-			margin: 4rem 0;
-		}
 
 	}
 	
@@ -631,10 +623,6 @@ input::-moz-focus-inner {
 		
 		hr {
 			margin: 1rem 0;
-		}
-		
-		hr.major {
-			margin: 3rem 0;
 		}
 		
 		hr.minor {
@@ -671,8 +659,9 @@ input::-moz-focus-inner {
 			margin: 1rem 0;
 		}
 		
-		hr.major {
-			margin: 3rem 0;
+		hr.minor_banner {
+			border: 0;
+		    margin: 0.25rem 0;
 		}
 
         .sm_icons {
