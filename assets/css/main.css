@@ -365,6 +365,7 @@ input::-moz-focus-inner {
 	
 	.logoname img {
 		width: 7rem;
+		margin-top: 0.35rem;
 	}
 	
 	.logosymbol img {
