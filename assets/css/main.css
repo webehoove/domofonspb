@@ -796,11 +796,7 @@ input::-moz-focus-inner {
 	}
 
 	.color_t_02 {
-		color: rgba(110, 114, 179, 1);
-	}
-
-	.color_t_03 {
-		color: rgba(32, 33, 52, 0.4);
+		opacity: 0.6;
 	}
 	
 /* Row */
