@@ -356,6 +356,10 @@ input::-moz-focus-inner {
 	#topmenu {
 		font-size: 0.85rem;
 	}
+	
+	.bottommenu {
+		font-size: 0.9rem;
+	}
 		
 	.logotype {
 		border-radius: 0;
@@ -580,6 +584,10 @@ input::-moz-focus-inner {
 		#topmenu {
 			display: none;
 	    }
+	
+	    .bottommenu {
+	    	font-size: 0.75rem;
+	    }
 	}
 
 
@@ -667,6 +675,10 @@ input::-moz-focus-inner {
         .sm_icons {
 	    	float: left;
 	    }
+	
+	    .bottommenu {
+	    	font-size: 0.7rem;
+	    }
 
 	}
 	
@@ -714,7 +726,7 @@ input::-moz-focus-inner {
 		}
 
 		h6 {
-			font-size: 0.55rem;
+			font-size: 0.65rem;
 		}
 		
 		hr {
@@ -756,22 +768,18 @@ input::-moz-focus-inner {
 
 	}
 
-	p {
-		color: rgba(32, 33, 52, 1);
-	}
-
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(32, 33, 52, 1);
+		color: rgba(10, 10, 10, 1);
 	}
 
 		a:hover {
-			color: rgba(32, 33, 52, 0.6);
+			color: rgba(10, 10, 10, 0.6);
 		}
 		
 		a:active, a:visited:active {
-			color: rgba(32, 33, 52, 1);
+			color: rgba(10, 10, 10, 1);
 		}
 
 	blockquote {
