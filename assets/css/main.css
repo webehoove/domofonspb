@@ -3053,7 +3053,7 @@ input::-moz-focus-inner {
 	}
 
 		.image img {
-			border-radius: 0;
+			border-radius: 0.5rem;
 			display: block;
 		}
 		
