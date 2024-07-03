@@ -354,7 +354,7 @@ input::-moz-focus-inner {
         }
 		
 	#topmenu {
-		font-size: 0.85rem;
+		font-size: 0.75rem;
 	}
 	
 	.bottommenu {
@@ -3053,7 +3053,7 @@ input::-moz-focus-inner {
 	}
 
 		.image img {
-			border-radius: 0.3rem;
+			border-radius: 0;
 			display: block;
 		}
 		
