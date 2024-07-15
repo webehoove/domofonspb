@@ -4640,8 +4640,8 @@ input::-moz-focus-inner {
 	}
 
 		#wrapper > .invert {
-			background-color: #08080f;
-			color: #ffffff;
+			background-color: #000000;
+			color: rgba(255, 255, 255, 0.87);
 		}
 
 			#wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
