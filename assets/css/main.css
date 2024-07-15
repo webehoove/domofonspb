@@ -196,7 +196,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(22, 22, 22, 1);;
+		color: rgba(33, 33, 33, 1);;
 	}
 
 	body, input, select, textarea {
@@ -395,8 +395,8 @@ input::-moz-focus-inner {
 		opacity: .5;
 	}
 	
-	.color08_t {
-		color: #A4A4AB;
+	.color02_t {
+		opacity: .75;
 	}
 	
 	@media screen and (max-width: 1366px) {
@@ -2549,7 +2549,7 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(36, 36, 53, 0.5);
+		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
 		rgba(0, 0, 0, 0.6); !important;
 	}
 
@@ -2558,7 +2558,7 @@ input::-moz-focus-inner {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px rgba(36, 36, 53, 0.2);
+			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.75);
 			rgba(0, 0, 0, 1); !important;
 		}
 
@@ -2567,8 +2567,7 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(36, 36, 53, 0.5);
-			box-shadow: inset 0 0 0 1px rgba(36, 36, 53, 0.5);
+			box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.15);
 			rgba(0, 0, 0, 0.6); !important;
 		}
 
