@@ -289,8 +289,8 @@ input::-moz-focus-inner {
 	}
 
 	h4 {
-		font-size: 1.3rem;
-		line-height: 1.35;
+		font-size: 1.35rem;
+		line-height: 1.05;
 	}
 
 	h5 {
@@ -421,6 +421,10 @@ input::-moz-focus-inner {
 		    font-size: 1.35rem;
 	    }
 		
+		h4 {
+	    	font-size: 1.25rem;
+	    }
+		
 		hr {
 		    margin: 2.5rem 0;
 	    }
@@ -448,6 +452,10 @@ input::-moz-focus-inner {
 	
 	    h3 {
 		    font-size: 1.5rem;
+	    }
+		
+		h4 {
+	    	font-size: 1.25rem;
 	    }
 		
 		hr {
@@ -4949,7 +4957,7 @@ input::-moz-focus-inner {
 		}
 
 		#wrapper > .color02 {
-			background-color: #cac5e8;
+			background-color: #031F30;
 		}
 
 		#wrapper > .color10 {
