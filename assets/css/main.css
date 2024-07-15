@@ -154,6 +154,14 @@ input::-moz-focus-inner {
 
 		}
 
+		@media screen and (max-width: 1024px) {
+
+			html {
+				font-size: 18px;
+			}
+
+		}
+
 		@media screen and (max-width: 980px) {
 
 			html {
@@ -173,7 +181,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 17px;
+				font-size: 16px;
 			}
 
 		}
@@ -412,10 +420,6 @@ input::-moz-focus-inner {
 	    h3 {
 		    font-size: 1.35rem;
 	    }
-		
-		hr {
-			margin: 3rem 0;
-		}
 
 	}
 	
@@ -442,14 +446,10 @@ input::-moz-focus-inner {
 			font-size: 2.35rem;
 			line-height: 0.95;
 		}
-		
-		h5 {
-			font-size: 0.95rem;
-		}
-		
-		hr {
-			margin: 1rem 0;
-		}
+	
+	    h3 {
+		    font-size: 1.5rem;
+	    }
 
 	}
 
@@ -3975,7 +3975,7 @@ input::-moz-focus-inner {
 			}
 
 			.items.style1.medium > * {
-				padding: 3rem 0 0 0 ;
+				padding: 4rem 0 0 0 ;
 				width: 50%;
 			}
 
@@ -4042,7 +4042,7 @@ input::-moz-focus-inner {
 			}
 
 			.items.style1.medium > * {
-				padding: 3rem 0 0 0 ;
+				padding: 4rem 0 0 0 ;
 				width: 100%;
 			}
 
