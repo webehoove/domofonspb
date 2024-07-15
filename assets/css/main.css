@@ -196,7 +196,7 @@ input::-moz-focus-inner {
 
 	body {
 		background-color: #ffffff;
-		color: rgba(33, 33, 33, 1);;
+		color: rgba(3, 31, 48, 1);;
 	}
 
 	body, input, select, textarea {
@@ -344,8 +344,13 @@ input::-moz-focus-inner {
 		margin: 3rem 0;
 	}
 
+		hr.minor {
+			border: 0;
+		    margin: 1.5rem 0;
+		}
+		
 		hr.lineer {
-			border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 			margin: 0;
 		}
 
@@ -377,6 +382,10 @@ input::-moz-focus-inner {
 		
 		hr {
 		    margin: 2.65rem 0;
+	    }
+		
+		hr.minor {
+		    margin: 1.5rem 0;
 	    }
 	}
 
