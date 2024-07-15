@@ -267,7 +267,7 @@ input::-moz-focus-inner {
 
 	h1 {
 		font-size: 2.65rem;
-		line-height: 1.1;
+		line-height: 1.2;
 	}
 	
 	h1.special {
@@ -344,39 +344,9 @@ input::-moz-focus-inner {
 		margin: 3rem 0;
 	}
 
-		hr.minor {
-			border: 0;
-		    margin: 1.5rem 0;
-		}
-		
-		hr.major {
-			border: 0;
-		    margin: 6rem 0;
-		}
-		
-		hr.starts {
-			border: 0;
-		    margin: 3rem 0;
-		}
-		
-		hr.ends {
-			border: 0;
-		    margin: 4rem 0;
-		}
-		
 		hr.lineer {
-			border-bottom: 1px solid rgba(8, 8, 15, 0.9);
-			margin: 0 0 1.5rem 0;
-		}
-		
-		hr.lineer2 {
-			border-bottom: 1px solid rgba(8, 8, 15, 0.9);
-			margin: 1.5rem 0;
-		}
-		
-		hr.lineer3 {
-			border-bottom: 1px solid rgba(8, 8, 15, 0.2);
-			margin: 0 0 1.5rem 0;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+			margin: 0;
 		}
 
 	.align-left {
@@ -396,7 +366,7 @@ input::-moz-focus-inner {
 	}
 	
 	.color02_t {
-		opacity: .75;
+		opacity: .35;
 	}
 	
 	@media screen and (max-width: 1366px) {
@@ -455,7 +425,7 @@ input::-moz-focus-inner {
 	    }
 		
 		hr {
-		    margin: 1.5rem 0;
+		    margin: 2rem 0;
 	    }
 
 	}
@@ -4675,7 +4645,7 @@ input::-moz-focus-inner {
 			}
 
 			#wrapper > .invert hr {
-				border-bottom-color: rgba(255, 255, 255, 0.8);
+				border-bottom-color: rgba(255, 255, 255, 0.1);
 			}
 
 			#wrapper > .invert .box {
