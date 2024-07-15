@@ -2471,7 +2471,7 @@ input::-moz-focus-inner {
 			}
 			
 	.box.bg01 {
-		background-color: #cac5e8;
+		background-color: #C2B4FC;
 	}
 
 /* Button */
@@ -4960,36 +4960,12 @@ input::-moz-focus-inner {
 			background-color: #031F30;
 		}
 
-		#wrapper > .color10 {
-			background-color: #E8E8EA;
-		}
-
-		#wrapper > .color09 {
-			background-color: #D1D1D5;
-		}
-
-		#wrapper > .color08 {
-			background-color: #A4A4AB;
-		}
-
-		#wrapper > .color07 {
-			background-color: #868690;
-		}
-
-		#wrapper > .color06 {
-			background-color: #696975;
-		}
-
-		#wrapper > .color05 {
-			background-color: #52525F;
+		#wrapper > .color03 {
+			background-color: #181818;
 		}
 
 		#wrapper > .color04 {
-			background-color: #3B3B4B;
-		}
-
-		#wrapper > .color03 {
-			background-color: #242435;
+			background-color: #0B141D;
 		}
 
 		#wrapper.divided > * {
