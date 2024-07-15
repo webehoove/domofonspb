@@ -289,7 +289,7 @@ input::-moz-focus-inner {
 	}
 
 	h4 {
-		font-size: 1.35rem;
+		font-size: 1.45rem;
 		line-height: 1.05;
 	}
 
@@ -422,7 +422,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h4 {
-	    	font-size: 1.25rem;
+	    	font-size: 1.35rem;
 	    }
 		
 		hr {
@@ -436,10 +436,6 @@ input::-moz-focus-inner {
 		h1 {
 			font-size: 1.65rem;
 		}
-	
-	    h1.special {
-		    font-size: 2.5rem;
-	    }
 
 	}
 	
@@ -447,7 +443,7 @@ input::-moz-focus-inner {
 
 		h1 {
 			font-size: 1.65rem;
-			line-height: 1;
+			line-height: 1.2;
 		}
 	
 	    h3 {
@@ -4961,7 +4957,7 @@ input::-moz-focus-inner {
 		}
 
 		#wrapper > .color03 {
-			background-color: #181818;
+			background-color: #161616;
 		}
 
 		#wrapper > .color04 {
