@@ -427,7 +427,7 @@ input::-moz-focus-inner {
 
 		h1 {
 			font-size: 2.5rem;
-			line-height: 1.2;
+			line-height: 1.15;
 		}
 	
 	    h3 {
@@ -4719,7 +4719,7 @@ input::-moz-focus-inner {
 				#wrapper > .invert .button.primary {
 					background-color: rgba(243, 243, 243, 0.25);
 					box-shadow: none;
-					color: rgba(243, 243, 243, 0.75);
+					color: rgba(243, 243, 243, 1);
 				}
 
 					#wrapper > .invert input[type="submit"].primary:hover,
