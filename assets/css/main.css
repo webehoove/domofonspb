@@ -493,6 +493,14 @@ input::-moz-focus-inner {
 				margin-bottom: 0.15rem;
 			}
 	
+	@media screen and (max-width: 736px) {
+
+		#topmenu.logotype img {
+		     width: 8.6rem;
+	    }
+
+	}
+	
 /* Row */
 
 	.row {
