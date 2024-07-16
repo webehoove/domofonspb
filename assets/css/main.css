@@ -427,7 +427,7 @@ input::-moz-focus-inner {
 
 		h1 {
 			font-size: 2.5rem;
-			line-height: 1.15;
+			line-height: 1.1;
 		}
 	
 	    h3 {
@@ -451,7 +451,7 @@ input::-moz-focus-inner {
 	a {
 		-webkit-tap-highlight-color: transparent !important;
         outline: none !important;
-		color: rgba(47, 50, 52, 0.5);
+		color: rgba(47, 50, 52, 0.8);
 	}
 
 		a:hover {
@@ -470,6 +470,28 @@ input::-moz-focus-inner {
 		background: rgba(47, 50, 52, 0.05);
 		border-color: rgba(47, 50, 52, 0.2);
 	}
+	
+/* Menu */
+
+	#topmenu {
+		position: relative;
+		margin: 1rem 0 3rem 0;
+	}	
+	
+	#topmenu.logotype img {
+		position: relative;
+		width: 9.6rem;
+	}
+	
+	.menutop {
+		font-size: 0.8rem;
+		margin-top: 0.3rem;
+	}
+	
+	        ul.menutop li {
+				display: block;
+				margin-bottom: 0.15rem;
+			}
 	
 /* Row */
 
@@ -2507,7 +2529,6 @@ input::-moz-focus-inner {
 		button.small,
 		.button.small {
 			font-size: 0.75rem;
-			letter-spacing: 0.05rem;
 			height: 1.8em;
 			line-height: 2em;
 			border-radius: 0.9em;
@@ -2709,54 +2730,14 @@ input::-moz-focus-inner {
 		padding: 0;
 		margin: 0;
 	}
-	
-	ul.alter {
-		list-style: none;
-		padding: 1rem 0 0 0;
-		margin: 0;
-	}
 
 		ul li {
-			display: inline-block;
-			padding-right: 1.15rem;
-			padding-botom: 2rem;
-		}
-		
-		ul.alter li {
 			display: block;
-			padding-bottom: 0.6rem;
 		}
-
-		ul.topmenu {
-			list-style: none;
-		    padding: 0;
-		    margin: 0;
-		}
-
-			ul.topmenu li {
-				display: block;
-			}
-			
-			ul.topmenu li a {
-				border-bottom: none;
-			}
-			
-			ul.topmenu li a:hover {
-				border-bottom: none;
-			}
-
-				ul.topmenu li:first-child {
-					padding-left: 0;
-				}
 				
 				@media screen and (max-width: 820px) {
 
-			         ul.topmenu li {
-				         display: block;
-						 padding: 0 0 0.06rem 0;
-			         }
-					 
-					 ol {
+			         ol {
 		                 list-style: decimal;
 	                 }
 
@@ -4955,7 +4936,7 @@ input::-moz-focus-inner {
 		}
 
 		#wrapper > .color03 {
-			background-color: #121212;
+			background-color: #0ebbff;
 		}
 
 		#wrapper > .color04 {
