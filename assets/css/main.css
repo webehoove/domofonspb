@@ -297,6 +297,11 @@ input::-moz-focus-inner {
 		font-size: 0.8rem;
 		line-height: 1.15;
 	}
+
+	h6 {
+		font-size: 1.15rem;
+		line-height: 1;
+	}
 	
 	sub {
 		font-size: 0.8rem;
@@ -2526,8 +2531,15 @@ input::-moz-focus-inner {
 		input[type="button"].wide,
 		button.wide,
 		.button.wide {
+			background-image: url(../../imgs/icons/arrow_right.svg);
+			background-repeat: no-repeat;
+			background-clip: border-box;
+			background-position:right;
+			background-color: rgba(255, 255, 255, 0.78);
+			box-shadow: none;
 			min-width: 14em;
 			text-align: left;
+			line-height: 1.9em;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2549,7 +2561,7 @@ input::-moz-focus-inner {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 1px rgba(47, 50, 52, 0.25);
+		box-shadow: inset 0 0 0 1px rgba(47, 50, 52, 0.15);
 		color: rgba(47, 50, 52, 0.75);
 	}
 
@@ -2566,7 +2578,7 @@ input::-moz-focus-inner {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			box-shadow: inset 0 0 0 1px rgba(47, 50, 52, 0.25);
+			box-shadow: inset 0 0 0 1px rgba(47, 50, 52, 0.15);
 		}
 
 		input[type="submit"].primary,
@@ -2593,6 +2605,18 @@ input::-moz-focus-inner {
 			button.primary:active,
 			.button.primary:active {
 				background-color: rgba(47, 50, 52, 0.05);
+			}
+			
+			@media screen and (max-width: 736px) {
+				
+				input[type="submit"],
+	            input[type="reset"],
+	            input[type="button"],
+	            button,
+	           .button {
+		            line-height: 1.95;
+	            }
+				
 			}
 		
 /* Image */
@@ -2663,7 +2687,7 @@ input::-moz-focus-inner {
 			@media screen and (max-width: 736px) {
 				
 				.rounded img {
-			     padding-bottom: 0.5rem;
+			        padding-bottom: 0.5rem;
 		        }
 				
 			}
@@ -4666,7 +4690,7 @@ input::-moz-focus-inner {
 			#wrapper > .invert button,
 			#wrapper > .invert .button {
 				background-color: transparent;
-		        box-shadow: inset 0 0 0 1px rgba(243, 243, 243, 0.15);
+		        box-shadow: inset 0 0 0 1px rgba(243, 243, 243, 0.25);
 		        color: rgba(243, 243, 243, 0.75);
 			}
 
