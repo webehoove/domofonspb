@@ -426,7 +426,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.7rem;
+			font-size: 2.5rem;
 			line-height: 1.2;
 		}
 	
@@ -435,7 +435,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h4 {
-	    	font-size: 1.25rem;
+	    	font-size: 1.5rem;
 	    }
 		
 		hr {
@@ -4717,7 +4717,7 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"].primary,
 				#wrapper > .invert button.primary,
 				#wrapper > .invert .button.primary {
-					background-color: rgba(243, 243, 243, 0.15);
+					background-color: rgba(243, 243, 243, 0.25);
 					box-shadow: none;
 					color: rgba(243, 243, 243, 0.75);
 				}
@@ -4727,7 +4727,7 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: rgba(243, 243, 243, 0.25);
+						background-color: rgba(243, 243, 243, 0.15);
 					    box-shadow: none;
 					}
 
@@ -4736,7 +4736,7 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: rgba(243, 243, 243, 0.15);
+						background-color: rgba(243, 243, 243, 0.25);
 					    box-shadow: none;
 					}
 
