@@ -22,11 +22,11 @@
   outline: none !important;
   position: absolute;
   z-index: 2;
-  right: 6px;
+  right: 0.75rem;
   /*left: 20px; */
-  top: 19px;
+  top: 1.5rem;
   height: 40px;
-  width: 40px;
+  width: 50px;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
@@ -42,11 +42,11 @@
   outline: none !important;
   position: absolute;
   z-index: 2;
-  right: 6px;
+  right: 0.75rem;
   /*left: 20px; */
-  top: 19px;
+  top: 1.5rem;
   height: 40px;
-  width: 40px;
+  width: 50px;
   text-align: center;
   line-height: 50px;
   font-size: 20px;
@@ -66,7 +66,7 @@
 	position: absolute;
 	top: 0;
 	width: 40%;
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 1px solid #f3f3f3;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btnb span,
@@ -78,7 +78,7 @@
 	position: absolute;
 	top: 0;
 	width: 40%;
-	border-bottom: 2px solid #08080f;
+	border-bottom: 1px solid #08080f;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
@@ -111,11 +111,11 @@
 }
 #active:checked + .menu-btn:before {
 	transform: rotate(45deg);
-  border-color: #fff;
+  border-color: #f3f3f3;
 }
 #active:checked + .menu-btn:after {
 	transform: rotate(-45deg);
-  border-color: #fff;
+  border-color: #f3f3f3;
 }
 
 /* closing animation */
@@ -124,11 +124,11 @@
 }
 #active:checked + .menu-btnb:before {
 	transform: rotate(45deg);
-  border-color: #fff;
+  border-color: #f3f3f3;
 }
 #active:checked + .menu-btnb:after {
 	transform: rotate(-45deg);
-  border-color: #fff;
+  border-color: #f3f3f3;
 }
 .wrapper_menu ul{
   position:relative;
