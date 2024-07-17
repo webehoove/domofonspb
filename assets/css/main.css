@@ -266,16 +266,13 @@ input::-moz-focus-inner {
 		}
 
 	h1 {
-		font-size: 2.65rem;
-		line-height: 1.2;
+		font-size: 2.5rem;
+		line-height: 1.05;
 	}
 	
-	h1.special {
-		font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
-		font-weight: normal;
-		text-transform: uppercase;
-		font-size: 5rem;
-		line-height: 0.85;
+	h1.major {
+		font-size: 2.65rem;
+		line-height: 1.2;
 	}
 
 	h2 {
@@ -291,6 +288,11 @@ input::-moz-focus-inner {
 	h4 {
 		font-size: 1.45rem;
 		line-height: 1.05;
+	}
+
+	h4.title {
+		font-size: 1.25rem;
+		line-height: 1;
 	}
 
 	h5 {
@@ -382,6 +384,10 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1366px) {
 		
 		h1 {
+		    font-size: 2.15rem;
+	    }
+		
+		h1.major {
 		    font-size: 2.35rem;
 	    }
 		
@@ -397,7 +403,7 @@ input::-moz-focus-inner {
 
 	@media screen and (max-width: 1280px) {
 
-		h1 {
+		h1.major {
 			font-size: 2.25rem;
 		}
 	
@@ -418,14 +424,26 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 980px) {
 
 		h1 {
+		    font-size: 1.75rem;
+	    }
+		
+		h1.major {
 			font-size: 1.65rem;
 		}
+		
+		h4 {
+		    font-size: 1.25rem;
+	    }
 
 	}
 	
 	@media screen and (max-width: 736px) {
 
 		h1 {
+		    font-size: 1.75rem;
+	    }
+		
+		h1.major {
 			font-size: 2.5rem;
 			line-height: 1.1;
 		}
@@ -435,11 +453,19 @@ input::-moz-focus-inner {
 	    }
 		
 		h4 {
-	    	font-size: 1.5rem;
+	    	font-size: 1.4rem;
+	    }
+		
+		h4.title {
+		    font-size: 1.15rem;
 	    }
 		
 		hr {
 		    margin: 2rem 0;
+	    }
+		
+		.hideit {
+			display: none;
 	    }
 
 	}
@@ -490,7 +516,7 @@ input::-moz-focus-inner {
 	
 	        ul.menutop li {
 				display: block;
-				margin-bottom: 0.15rem;
+				margin-bottom: 0.05rem;
 			}
 	
 	@media screen and (max-width: 736px) {
@@ -2468,7 +2494,11 @@ input::-moz-focus-inner {
 		width: 100%;
 		height: 100%;
 		border: none;
-		border-radius: 0.5rem;
+		border-radius: 0.35rem;
+	}
+	
+	.box.wide {
+		padding: 2.5rem 3.35rem 2.5rem 3.35rem;
 	}
 	
 			@media screen and (max-width: 736px) {
@@ -2478,10 +2508,14 @@ input::-moz-focus-inner {
 		            width: 100%;
 				}
 				
+				.box.wide {
+					padding: 2rem 1rem 2rem 1rem;
+				}
+				
 			}
 			
 	.box.bg01 {
-		background-color: #C2B4FC;
+		background-color: #2f3234;
 	}
 
 /* Button */
@@ -2548,11 +2582,16 @@ input::-moz-focus-inner {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 0.8rem;
-			height: 4em;
-			line-height: 4em;
-			border-radius: 4em;
-			padding: 0 3em;
+			background-image: url(../../imgs/icons/arrow_right_black.svg);
+			background-repeat: no-repeat;
+			background-clip: border-box;
+			background-position:right;
+			min-width: 11em;
+			font-size: 1rem;
+			height: 1.9em;
+			line-height: 1.9em;
+			border-radius: 1.9em;
+			text-align: left;
 		}
 
 		input[type="submit"].wide,
@@ -2564,8 +2603,6 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			background-color: rgba(255, 255, 255, 0.78);
-			box-shadow: none;
 			min-width: 14em;
 			text-align: left;
 			line-height: 1.9em;
@@ -2634,6 +2671,23 @@ input::-moz-focus-inner {
 			button.primary:active,
 			.button.primary:active {
 				background-color: rgba(47, 50, 52, 0.05);
+			}
+
+		button.colored,
+		.button.colored {
+			background-color: rgba(14, 187, 255, 1);
+			box-shadow: none;
+			color: rgba(47, 50, 52, 1);
+		}
+
+			button.colored:hover,
+			.button.colored:hover {
+				background-color: rgba(14, 187, 255, 0.6);
+			}
+
+			button.colored:active,
+			.button.colored:active {
+				background-color: rgba(14, 187, 255, 1);
 			}
 			
 			@media screen and (max-width: 736px) {
@@ -4688,7 +4742,7 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"]:hover,
 				#wrapper > .invert button:hover,
 				#wrapper > .invert .button:hover {
-					background-color: rgba(243, 243, 243, 0.15);
+					background-color: rgba(243, 243, 243, 0.05);
 		            box-shadow: inset 0 0 0 1px rgba(243, 243, 243, 0);
 				}
 
@@ -4697,7 +4751,7 @@ input::-moz-focus-inner {
 				#wrapper > .invert input[type="button"]:active,
 				#wrapper > .invert button:active,
 				#wrapper > .invert .button:active {
-					background-color: rgba(243, 243, 243, 0.15);
+					background-color: rgba(243, 243, 243, 0.25);
 		            box-shadow: inset 0 0 0 1px rgba(243, 243, 243, 0);
 				}
 
@@ -4716,7 +4770,7 @@ input::-moz-focus-inner {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: rgba(243, 243, 243, 0.15);
+						background-color: rgba(243, 243, 243, 0.09);
 					    box-shadow: none;
 					}
 
@@ -4726,6 +4780,25 @@ input::-moz-focus-inner {
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
 						background-color: rgba(243, 243, 243, 0.25);
+					    box-shadow: none;
+					}
+					
+				#wrapper > .invert button.colored,
+				#wrapper > .invert .button.colored {
+					background-color: rgba(14, 187, 255, 1);
+					box-shadow: none;
+					color: rgba(47, 50, 52, 1);
+				}
+
+					#wrapper > .invert button.colored:hover,
+					#wrapper > .invert .button.colored:hover {
+						background-color: rgba(14, 187, 255, 0.5);
+					    box-shadow: none;
+					}
+
+					#wrapper > .invert button.colored:active,
+					#wrapper > .invert .button.colored:active {
+						background-color: rgba(14, 187, 255, 1);
 					    box-shadow: none;
 					}
 
