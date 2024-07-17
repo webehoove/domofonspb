@@ -2588,7 +2588,7 @@ input::-moz-focus-inner {
 			min-width: 11em;
 			font-size: 1rem;
 			height: 1.9em;
-			line-height: 1.9em;
+			line-height: 2em;
 			border-radius: 1.9em;
 			text-align: left;
 		}
@@ -2603,8 +2603,9 @@ input::-moz-focus-inner {
 			background-clip: border-box;
 			background-position:right;
 			min-width: 14em;
+			font-size: 0.95rem;
 			text-align: left;
-			line-height: 1.9em;
+			line-height: 1.8em;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2651,7 +2652,7 @@ input::-moz-focus-inner {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: rgba(47, 50, 52, 0.6);
+			background-color: rgba(47, 50, 52, 0.5);
 			box-shadow: none;
 			color: rgba(243, 243, 243, 1);
 		}
