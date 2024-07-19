@@ -210,7 +210,7 @@ input::-moz-focus-inner {
 	}
 
 	p {
-		line-height: 1.2;
+		line-height: 1.1;
 	}
 		
 	h1, h2, h3, h4, h5, h6 {
@@ -236,8 +236,8 @@ input::-moz-focus-inner {
 	}
 	
 	h1.major {
-		font-size: 2.65rem;
-		line-height: 1.2;
+		font-size: 3.65rem;
+		line-height: 1;
 	}
 
 	h2 {
@@ -362,7 +362,7 @@ input::-moz-focus-inner {
 	    }
 		
 		hr.minor {
-		    margin: 1.5rem 0;
+		    margin: 1.15rem 0;
 	    }
 	}
 
@@ -410,8 +410,8 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.major {
-			font-size: 2.5rem;
-			line-height: 1.1;
+			font-size: 1.8rem;
+			line-height: 1;
 		}
 	
 	    h3 {
