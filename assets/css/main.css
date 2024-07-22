@@ -1,17 +1,17 @@
 @font-face {
            font-family: DS Sans Regular;
-           src: url(../webfonts/DSSans-Regular.woff) format('woff');
-		   src: url(../webfonts/DSSans-Regular.woff2) format('woff2');
-		   src: url(../webfonts/DSSans-Regular.ttf) format('truetype');
+           src: url(../webfonts/DS-Sans-Regular.woff) format('woff');
+		   src: url(../webfonts/DS-Sans-Regular.woff2) format('woff2');
+		   src: url(../webfonts/DS-Sans-Regular.ttf) format('truetype');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
            font-family: DS Sans Medium;
-           src: url(../webfonts/DSSans-Medium.woff) format('woff');
-		   src: url(../webfonts/DSSans-Medium.woff2) format('woff2');
-		   src: url(../webfonts/DSSans-Medium.ttf) format('truetype');
+           src: url(../webfonts/DS-Sans-Medium.woff) format('woff');
+		   src: url(../webfonts/DS-Sans-Medium.woff2) format('woff2');
+		   src: url(../webfonts/DS-Sans-Medium.ttf) format('truetype');
            font-display: swap;
            font-style: normal;
         }
