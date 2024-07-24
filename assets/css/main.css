@@ -1,4 +1,13 @@
 @font-face {
+           font-family: DS Sans Light;
+           src: url(../webfonts/DS-Sans-Light.woff) format('woff');
+		   src: url(../webfonts/DS-Sans-Light.woff2) format('woff2');
+		   src: url(../webfonts/DS-Sans-Light.ttf) format('truetype');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
            font-family: DS Sans Regular;
            src: url(../webfonts/DS-Sans-Regular.woff) format('woff');
 		   src: url(../webfonts/DS-Sans-Regular.woff2) format('woff2');
@@ -12,6 +21,15 @@
            src: url(../webfonts/DS-Sans-Medium.woff) format('woff');
 		   src: url(../webfonts/DS-Sans-Medium.woff2) format('woff2');
 		   src: url(../webfonts/DS-Sans-Medium.ttf) format('truetype');
+           font-display: swap;
+           font-style: normal;
+        }
+		
+@font-face {
+           font-family: DS Sans Bold;
+           src: url(../webfonts/DS-Sans-Bold.woff) format('woff');
+		   src: url(../webfonts/DS-Sans-Bold.woff2) format('woff2');
+		   src: url(../webfonts/DS-Sans-Bold.ttf) format('truetype');
            font-display: swap;
            font-style: normal;
         }
@@ -186,7 +204,7 @@ input::-moz-focus-inner {
 		font-weight: normal;
 		font-size: 1rem;
 		letter-spacing: 0;
-		line-height: 1.1;
+		line-height: 1.2;
 	}
 
 	a {
@@ -204,13 +222,18 @@ input::-moz-focus-inner {
 		a:hover {
 			text-decoration: none;
 		}
+		
+	strong, b {
+		 font-family: 'DS Sans Medium', Helvetica, sans-serif;
+		 font-weight: normal;
+	}
 
 	em, i {
 		font-style: italic;
 	}
 
 	p {
-		line-height: 1;
+		line-height: 1.2;
 	}
 		
 	h1, h2, h3, h4, h5, h6 {
@@ -226,17 +249,28 @@ input::-moz-focus-inner {
 			text-transform: uppercase;
 		}
 		
+		.light_t {
+			font-family: 'DS Sans Light', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+		
 		.medium_t {
 			font-family: 'DS Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
+		
+		.bold_t {
+			font-family: 'DS Sans Bold', Helvetica, sans-serif;
+		    font-weight: normal;
+		}
+
 	h1 {
 		font-size: 2.5rem;
-		line-height: 1.05;
+		line-height: 1;
 	}
 	
 	h1.major {
-		font-size: 3.65rem;
+		font-size: 3.15rem;
 		line-height: 1;
 	}
 
@@ -261,9 +295,8 @@ input::-moz-focus-inner {
 	}
 
 	h5 {
-		font-size: 0.75rem;
-		line-height: 1;
-		margin: 0.5rem 0 2.5rem 0
+		font-size: 0.85rem;
+		line-height: 1.15;
 	}
 
 	h6 {
@@ -354,7 +387,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.major {
-		    font-size: 2.35rem;
+		    font-size: 2.5rem;
 	    }
 		
 		hr {
@@ -362,7 +395,7 @@ input::-moz-focus-inner {
 	    }
 		
 		hr.minor {
-		    margin: 1.15rem 0;
+		    margin: 1.5rem 0;
 	    }
 	}
 
@@ -370,7 +403,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		h1.major {
-			font-size: 2.25rem;
+			font-size: 2.45rem;
 		}
 	
 	    h3 {
@@ -394,7 +427,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.major {
-			font-size: 1.65rem;
+			font-size: 1.75rem;
 		}
 		
 		h4 {
@@ -410,7 +443,7 @@ input::-moz-focus-inner {
 	    }
 		
 		h1.major {
-			font-size: 1.8rem;
+			font-size: 2.5rem;
 			line-height: 1;
 		}
 	
@@ -467,7 +500,7 @@ input::-moz-focus-inner {
 
 	#topmenu {
 		position: relative;
-		margin: 1rem 0 2rem 0;
+		margin: 1rem 0 0 0;
 	}	
 	
 	#topmenu.logotype img {
@@ -501,6 +534,10 @@ input::-moz-focus-inner {
 	
 	@media screen and (max-width: 736px) {
 
+		#topmenu {
+		     margin: 1rem 0 2rem 0;
+	    }
+		
 		#topmenu.logotype img {
 		     width: 8.6rem;
 	    }
@@ -705,15 +742,15 @@ input::-moz-focus-inner {
 
 		.row {
 			margin-top: 0;
-			margin-left: -0.5rem;
+			margin-left: -0.33rem;
 		}
 
 			.row > * {
-				padding: 0 0 0 0.5rem;
+				padding: 0 0 0 0.33rem;
 			}
 
 			.row.gtr-uniform {
-				margin-top: -0.0.5rem;
+				margin-top: -0.0.33rem;
 			}
 
 				.row.gtr-uniform > * {
@@ -948,15 +985,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.33rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.33rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.33rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1193,15 +1230,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.33rem;
 				}
 
 					.row > * {
-						padding:0 0 0 0.5rem;
+						padding:0 0 0 0.33rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.33rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1438,15 +1475,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.33rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.33rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.33rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1683,15 +1720,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.33rem;
 				}
 
 					.row > * {
-						padding: 0m 0 0 0.5rem;
+						padding: 0m 0 0 0.33rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.33rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -1928,15 +1965,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.33rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.33rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.33rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2173,15 +2210,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.33rem;
 				}
 
 					.row > * {
-						padding: 0 0 0 0.5rem;
+						padding: 0 0 0 0.33rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.33rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2418,15 +2455,15 @@ input::-moz-focus-inner {
 
 				.row {
 					margin-top: 0;
-					margin-left: -0.5rem;
+					margin-left: -0.33rem;
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 0.5rem 0 0 0.33rem;
 					}
 
 					.row.gtr-uniform {
-						margin-top: -0.5rem;
+						margin-top: -0.33rem;
 					}
 
 						.row.gtr-uniform > * {
@@ -2587,7 +2624,7 @@ input::-moz-focus-inner {
 			background-repeat: no-repeat;
 			background-clip: border-box;
 			background-position:right;
-			min-width: 14em;
+			min-width: 11em;
 			font-size: 0.95rem;
 			text-align: left;
 			line-height: 1.8em;
@@ -3374,7 +3411,7 @@ input::-moz-focus-inner {
 /* Banner (style5) */
 
 	.banner.style5 {
-		padding: 0.5rem ;
+		padding: 3rem 7rem ;
 		-moz-align-items: left;
 		-webkit-align-items: left;
 		-ms-align-items: left;
@@ -3456,7 +3493,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1680px) {
 
 			.banner.style5 {
-				padding: 0.5rem ;
+				padding: 3rem 2rem ;
 			}
 
 		}
@@ -3464,7 +3501,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 1280px) {
 
 			.banner.style5 {
-				padding: 0.5rem ;
+				padding: 3rem 1rem ;
 			}
 
 		}
@@ -3472,7 +3509,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 980px) {
 
 			.banner.style5 {
-				padding: 0.5rem ;
+				padding: 3rem 1rem ;
 			}
 
 		}
@@ -3480,7 +3517,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			.banner.style5 {
-				padding: 0.5rem ;
+				padding: 3rem 1rem ;
 			}
 
 		}
@@ -3526,7 +3563,7 @@ input::-moz-focus-inner {
 /* Wrapper (style1) */
 
 	.wrapper.style1 > .inner {
-		padding: 0 0.5rem;
+		padding: 0 7rem;
 		margin: 0 auto;
 		width: 100%;
 	}
@@ -3542,7 +3579,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.5rem;
+			padding: 0 2rem;
 		}
 
 	}
@@ -3550,7 +3587,7 @@ input::-moz-focus-inner {
 	@media screen and (max-width: 1280px) {
 
 		.wrapper.style1 > .inner {
-			padding: 0 0.5rem;
+			padding: 0 1rem;
 		}
 
 	}
