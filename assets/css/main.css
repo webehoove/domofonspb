@@ -15,7 +15,15 @@
            font-display: swap;
            font-style: normal;
         }
-
+		
+@font-face {
+           font-family: DF Sans Regular;
+           src: url(../webfonts/df_s/DFSans-Regular.woff) format('woff');
+		   src: url(../webfonts/df_s/DFSans-Regular.woff2) format('woff2');
+		   src: url(../webfonts/df_s/DFSans-Regular.ttf) format('truetype');
+           font-display: swap;
+           font-style: normal;
+        }
 
 
 
@@ -182,7 +190,7 @@ input::-moz-focus-inner {
 	}
 
 	body, input, select, textarea {
-		font-family: 'DS Sans Regular', Helvetica, sans-serif;
+		font-family: 'DF Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		font-size: 1rem;
 		letter-spacing: 0;
@@ -227,7 +235,7 @@ input::-moz-focus-inner {
 		}
 		
 		.medium_t {
-			font-family: 'DS Sans Regular', Helvetica, sans-serif;
+			font-family: 'DF Sans Regular', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 	h1 {
