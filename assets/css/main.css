@@ -180,7 +180,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 14px;
+				font-size: 13px;
 			}
 
 		}
@@ -188,7 +188,7 @@ input::-moz-focus-inner {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 14px;
+				font-size: 13px;
 			}
 
 		}
@@ -361,7 +361,7 @@ input::-moz-focus-inner {
 	}
 	
 	.color02_t {
-		opacity: .75;
+		opacity: .65;
 	}
 	
 	.color03_t {
@@ -5010,7 +5010,7 @@ input::-moz-focus-inner {
 		}
 
 		#wrapper > .color03 {
-			background-color: #0ebbff;
+			background-color: #655b9f;
 		}
 
 		#wrapper > .color04 {
