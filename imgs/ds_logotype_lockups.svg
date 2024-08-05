@@ -4,11 +4,11 @@
 	 viewBox="0 0 3000 2000" style="enable-background:new 0 0 3000 2000;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E7E7E7;}
-	.st1{fill:none;stroke:#0EBBFF;stroke-width:2;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#0EBBFF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:4,4;}
+	.st1{fill:none;stroke:#A292FF;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#A292FF;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:4,4;}
 	.st3{fill:#1A1B18;}
 	.st4{opacity:0.6;}
-	.st5{fill:#0EBBFF;}
+	.st5{fill:#A292FF;stroke:#A292FF;stroke-width:2;stroke-miterlimit:10;}
 </style>
 <rect class="st0" width="3000" height="2000"/>
 <line class="st1" x1="0" y1="210.6" x2="3000" y2="210.6"/>
