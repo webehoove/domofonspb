@@ -11,7 +11,13 @@
  --primary-blue: rgba(135, 220, 255, 1);
 }
 :root {
+ --primary-dred: rgba(220, 15, 60, 1);
+}
+:root {
  --primary-red: rgba(255, 50, 85, 1);
+}
+:root {
+ --primary-lred: rgba(255, 200, 215, 1);
 }
 :root {
  --primary-orange: rgba(255, 205, 50, 1);

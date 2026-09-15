@@ -1,129 +1,3 @@
-:root {
- --primary-bblue: rgba(11, 36, 68, 1);
-}
-:root {
- --primary-dblue: rgba(20, 54, 128, 1);
-}
-:root {
- --primary-mblue: rgba(30, 86, 159, 1);
-}
-:root {
- --primary-nblue: rgba(8, 131, 212, 1);
-}
-:root {
- --primary-blue: rgba(0, 181, 235, 1);
-}
-:root {
- --primary-lblue: rgba(156, 213, 255, 1);
-}
-:root {
- --primary-ablue: rgba(201, 235, 254, 1);
-}
-:root {
- --primary-dred: rgba(160, 19, 46, 1);
-}
-:root {
- --primary-mred: rgba(224, 10, 71, 1);
-}
-:root {
- --primary-nred: rgba(254, 64, 84, 1);
-}
-:root {
- --primary-red: rgba(255, 107, 143, 1);
-}
-:root {
- --primary-lred: rgba(255, 164, 188, 1);
-}
-:root {
- --primary-ared: rgba(255, 220, 233, 1);
-}
-:root {
- --primary-dorange: rgba(94, 45, 32, 1);
-}
-:root {
- --primary-morange: rgba(193, 92, 0, 1);
-}
-:root {
- --primary-norange: rgba(234, 130, 6, 1);
-}
-:root {
- --primary-orange: rgba(249, 178, 0, 1);
-}
-:root {
- --primary-lorange: rgba(255, 206, 49, 1);
-}
-:root {
- --primary-aorange: rgba(255, 222, 138, 1);
-}
-:root {
- --primary-dgreen: rgba(16, 73, 40, 1);
-}
-:root {
- --primary-mgreen: rgba(18, 117, 58, 1);
-}
-:root {
- --primary-ngreen: rgba(50, 173, 98, 1);
-}
-:root {
- --primary-green: rgba(56, 214, 120, 1);
-}
-:root {
- --primary-lgreen: rgba(128, 249, 177, 1);
-}
-:root {
- --primary-agreen: rgba(210, 249, 192, 1);
-}
-:root {
- --primary-daqua: rgba(0, 72, 76, 1);
-}
-:root {
- --primary-maqua: rgba(0, 105, 115, 1);
-}
-:root {
- --primary-naqua: rgba(40, 165, 165, 1);
-}
-:root {
- --primary-aqua: rgba(3, 225, 217, 1);
-}
-:root {
- --primary-laqua: rgba(115, 244, 240, 1);
-}
-:root {
- --primary-aaqua: rgba(217, 250, 252, 1);
-}
-:root {
- --primary-dpurple: rgba(68, 34, 135, 1);
-}
-:root {
- --primary-mpurple: rgba(107, 47, 221, 1);
-}
-:root {
- --primary-npurple: rgba(150, 91, 244, 1);
-}
-:root {
- --primary-purple: rgba(203, 152, 255, 1);
-}
-:root {
- --primary-lpurple: rgba(218, 189, 255, 1);
-}
-:root {
- --primary-apurple: rgba(242, 212, 255, 1);
-}
-:root {
- --primary-tho: rgba(254, 252, 248, 1);
-}
-:root {
- --primary-thd: rgba(232, 231, 227, 1);
-}
-:root {
- --primary-thb: rgba(204, 202, 196, 1);
-}
-:root {
- --primary-bb: rgba(11, 36, 66, 1);
-}
-:root {
- --primary-w: rgba(255, 255, 255, 1);
-}
 /*___________Text______________*/
 @font-face {
 	font-family: 'TW Rg';
@@ -166,25 +40,6 @@
 	font-style: normal;
 	font-display: swap;
 	src: url(../webfonts/twsans/TWSans_ExtraBlack.woff2) format('woff2');
-}
-/*___________Numbers______________*/
-@font-face {
-	font-family: 'TWE Num Rg';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/twe_numbers/TWE-TransformaSans-Regular.woff2) format('woff2'), url(../webfonts/twe_sans_text/TWE-TransformaSans-Regular.woff) format('woff');
-}
-@font-face {
-	font-family: 'TWE Num Bd';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/twe_numbers/TWE-TransformaSans-Bold.woff2) format('woff2'), url(../webfonts/twe_sans_text/TWE-TransformaSans-Bold.woff) format('woff');
-}
-@font-face {
-	font-family: 'TWE Num Blk';
-	font-weight: normal;
-	font-style: normal;
-	src: url(../webfonts/twe_numbers/TWE-TransformaSans-Black.woff2) format('woff2'), url(../webfonts/twe_sans_text/TWE-TransformaSans-Black.woff) format('woff');
 }
 /*___________Text&Play______________*/
 @font-face {
@@ -418,83 +273,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_b {
 	color: var(--primary-blue);
 }
-.t_color_lb {
-	color: var(--primary-lblue);
-}
-.t_color_ab {
-	color: var(--primary-ablue);
-}
-.t_color_dr {
-	color: var(--primary-dred);
-}
-.t_color_nr {
-	color: var(--primary-nred);
-}
 .t_color_r {
 	color: var(--primary-red);
-}
-.t_color_lr {
-	color: var(--primary-lred);
-}
-.t_color_ar {
-	color: var(--primary-ared);
-}
-.t_color_do {
-	color: var(--primary-dorange);
-}
-.t_color_mo {
-	color: var(--primary-morange);
-}
-.t_color_o {
-	color: var(--primary-orange);
-}
-.t_color_lo {
-	color: var(--primary-lorange);
-}
-.t_color_g {
-	color: var(--primary-green);
-}
-.t_color_lg {
-	color: var(--primary-lgreen);
-}
-.t_color_ag {
-	color: var(--primary-agreen);
-}
-.t_color_dp {
-	color: var(--primary-dpurple);
-}
-.t_color_mp {
-	color: var(--primary-mpurple);
-}
-.t_color_np {
-	color: var(--primary-npurple);
-}
-.t_color_p {
-	color: var(--primary-purple);
-}
-.t_color_lp {
-	color: var(--primary-lpurple);
-}
-.t_color_ap {
-	color: var(--primary-apurple);
-}
-.t_color_tho {
-	color: var(--primary-tho);
-}
-.t_color_thd {
-	color: var(--primary-thd);
-}
-.t_color_thb {
-	color: var(--primary-thb);
-}
-.t_color_w {
-	color: rgba(255, 255, 255, 1);
-}
-.t_color_55 {
-	opacity: .55;
-}
-.t_color_80 {
-	opacity: .85;
 }
 .nols_s {
 	letter-spacing: -0.05rem;
@@ -664,9 +444,6 @@ h2 {
 h4 {
 	font-size: 1.35rem;
 }
-hr {
-	margin: 0.5rem 0;
-}
 }
  @media screen and (max-width: 736px) {
 p {
@@ -723,6 +500,9 @@ hr.block2 {
 }
 hr.block_space {
 	margin: 4rem 0;
+}
+hr.block_start {
+	margin: 2rem 0;
 }
 hr.lineer {
 	margin: 2rem 0;
@@ -914,7 +694,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	color: rgba(255, 255, 255, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
-	background-color: var(--primary-dblue);
+	background-color: var(--primary-mblue);
 }
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
 	background-color: var(--primary-nblue);
@@ -928,7 +708,18 @@ button.dblue:hover, .button.dblue:hover {
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.dblue:active, .button.dblue:active {
-	background-color: var(--primary-dblue);
+	background-color: var(--primary-nblue);
+}
+button.red, .button.red {
+	background-color: var(--primary-red);
+	color: rgba(255, 255, 255, 1) !important;
+}
+button.red:hover, .button.red:hover {
+	background-color: var(--primary-dred) !important;
+	color: rgba(255, 255, 255, 1) !important;
+}
+button.red:active, .button.red:active {
+	background-color: var(--primary-red);
 }
  @media screen and (max-width: 1024px) {
 button.large, .button.large, .button.large_a_red, .button.large_a_npurple {
